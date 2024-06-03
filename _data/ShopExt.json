@@ -1,69 +1,72 @@
-﻿{
+{
   "traits": [
     {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
       "description": "Timmy enjoys the feeling of freedom that comes from being nude. he can handle clothing, but will be happier without it.",
-      "stats": [
-
-      ],
+      "stats": [],
       "conflicts": [
-
+        "prude"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "prude"
+        ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Nudist",
-      "name": "nudist",
+      "name": "nudist"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
+      "removePrice": 1350,
+      "degree": 0,
       "description": "Timmy gets a rush from hurting people, and never minds the sight of blood or death. he is four times as likely to start a social fight as others.",
       "stats": [
-
+        "Morbid meditation focus type allowed."
       ],
       "conflicts": [
-
+        "bleedingheart",
+        "desensitized"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "bleedingheart",
+          "desensitized"
+        ],
+        "stats": [
+          "Morbid meditation focus type allowed."
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Bloodlust",
-      "name": "bloodlust",
+      "name": "bloodlust"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy is exceptionally kind. he has a special way of using kind words to brighten someone's day. he never insults others, and never judges people by their appearance.",
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is an exceptionally agreeable and giving person. he rarely insults others and will sometimes offer kind words to brighten the moods of those around him. he also never judges people by their appearance. his agreeableness also makes him more likely to conform to prevailing opinions.",
       "stats": [
-
+        "x200% global certainty loss factor"
       ],
       "conflicts": [
         "abrasive",
@@ -71,261 +74,288 @@
       ],
       "bypassLimit": false,
       "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
         "conflicts": [
           "abrasive",
           "psychopath"
         ],
         "stats": [
-
-        ]
+          "x200% global certainty loss factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
       },
       "defName": "Kind",
-      "name": "kind",
+      "name": "kind"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
+      "removePrice": 1350,
+      "degree": 0,
       "description": "Timmy has no empathy. The suffering of others doesn't bother him at all. he doesn't mind if others are butchered, left unburied, imprisoned, or sold to slavery - unless it affects him. he also feels no mood boost from socializing.",
       "stats": [
-
+        "Morbid meditation focus type allowed.",
+        "x50% global certainty loss factor"
       ],
       "conflicts": [
-
+        "bleedingheart",
+        "desensitized",
+        "open-minded"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "bleedingheart",
+          "desensitized",
+          "open-minded"
+        ],
+        "stats": [
+          "Morbid meditation focus type allowed.",
+          "x50% global certainty loss factor"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Psychopath",
-      "name": "psychopath",
+      "name": "psychopath"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
+      "removePrice": 1350,
+      "degree": 0,
       "description": "Timmy was taught that eating human meat is wrong and horrible. But one time, long ago, he tried it... and he liked it.",
       "stats": [
-
+        "Morbid meditation focus type allowed."
       ],
       "conflicts": [
-
+        "bleedingheart",
+        "gourmet"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "bleedingheart",
+          "gourmet"
+        ],
+        "stats": [
+          "Morbid meditation focus type allowed."
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Cannibal",
-      "name": "cannibal",
+      "name": "cannibal"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy always says exactly what's on his mind, especially if it's bugging him. That tends to rub people the wrong way.",
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy always says exactly what's on his mind, especially if it's bugging him. That tends to rub people the wrong way. At least he doesn't mind being insulted or slighted either.",
       "stats": [
-
+        "+3 melee",
+        "x50% global certainty loss factor"
       ],
       "conflicts": [
-
+        "kind",
+        "uncouth",
+        "diplomat",
+        "masterdiplomat",
+        "sucker",
+        "haggler",
+        "mastertrader"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "kind",
+          "uncouth",
+          "diplomat",
+          "masterdiplomat",
+          "sucker",
+          "haggler",
+          "mastertrader"
+        ],
+        "stats": [
+          "+3 melee",
+          "x50% global certainty loss factor"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Abrasive",
-      "name": "abrasive",
+      "name": "abrasive"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
+      "removePrice": 1350,
+      "degree": 0,
       "description": "Timmy is too smart for his own good. he learns everything much faster than everyone, but can be quite eccentric.",
       "stats": [
         "+75% global learning factor",
-        "+12% mental break threshold"
+        "+12% mental break threshold",
+        "x50% global certainty loss factor"
       ],
       "conflicts": [
         "iron-willed",
         "steadfast",
         "nervous",
         "volatile",
-        "slowlearner"
+        "slowlearner",
+        "dunce",
+        "savant"
       ],
       "bypassLimit": false,
       "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
         "conflicts": [
           "iron-willed",
           "steadfast",
           "nervous",
           "volatile",
-          "slowlearner"
+          "slowlearner",
+          "dunce",
+          "savant"
         ],
         "stats": [
           "+75% global learning factor",
-          "+12% mental break threshold"
-        ]
+          "+12% mental break threshold",
+          "x50% global certainty loss factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
       },
       "defName": "TooSmart",
-      "name": "toosmart",
+      "name": "toosmart"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
+      "removePrice": 1350,
+      "degree": 0,
       "description": "Timmy likes to fight up close and personal. his accuracy is greatly increased in melee combat, but he'll be very unhappy if asked to carry a ranged weapon.",
       "stats": [
         "Shoot frenzy inspiration disabled.",
         "+4 melee",
         "-4 shooting",
-        "+4.0 melee hit chance"
+        "+4.0 melee hit chance",
+        "+25% melee critical chance",
+        "+25% melee parry chance"
       ],
       "conflicts": [
         "carefulshooter",
         "trigger-happy",
+        "deadshot",
         "wimp"
       ],
       "bypassLimit": false,
       "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
         "conflicts": [
           "carefulshooter",
           "trigger-happy",
+          "deadshot",
           "wimp"
         ],
         "stats": [
           "Shoot frenzy inspiration disabled.",
           "+4 melee",
           "-4 shooting",
-          "+4.0 melee hit chance"
-        ]
+          "+4.0 melee hit chance",
+          "+25% melee critical chance",
+          "+25% melee parry chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
       },
       "defName": "Brawler",
-      "name": "brawler",
+      "name": "brawler"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
+      "removePrice": 1350,
+      "degree": 0,
       "description": "For Timmy, there's something exciting about getting hurt. he doesn't know why, he's just wired differently.",
       "stats": [
-
+        "Morbid meditation focus type allowed."
       ],
       "conflicts": [
-
+        "wimp"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "wimp"
+        ],
+        "stats": [
+          "Morbid meditation focus type allowed."
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Masochist",
-      "name": "masochist",
+      "name": "masochist"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
+      "removePrice": 1350,
+      "degree": 0,
       "description": "Timmy likes to be up during the night, and sleep during the day.\n\nhe gets a mood bonus if awake at night (23h-6h) and mood loss if awake during the day (11h-18h).\n\nhe doesn't get a mood penalty for being in the dark.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "NightOwl",
-      "name": "nightowl",
+      "name": "nightowl"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
+      "removePrice": 1350,
+      "degree": 0,
       "description": "Timmy needs a really impressive bedroom. he gets a mood loss if he doesn't get what he wants.",
       "stats": [
-
+        "x133% eating speed",
+        "x150% carrying capacity"
       ],
       "conflicts": [
         "ascetic",
@@ -333,31 +363,35 @@
       ],
       "bypassLimit": false,
       "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
         "conflicts": [
           "ascetic",
           "jealous"
         ],
         "stats": [
-
-        ]
+          "x133% eating speed",
+          "x150% carrying capacity"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
       },
       "defName": "Greedy",
-      "name": "greedy",
+      "name": "greedy"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "For Timmy, it's degrading to have a less impressive bedroom than someone else. he gets a mood loss if any colonist has a more impressive bedroom.",
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "For Timmy, it's degrading to have a less impressive bedroom than someone else. he gets a mood loss if any colonist has a more impressive bedroom. At least he isn't as affected by prisoners or colonists dying and he doesn't mind wearing a dead person's clothing.",
       "stats": [
-
+        "Morbid meditation focus type allowed.",
+        "+3 social",
+        "x115% negotiation ability",
+        "x115% trade price improvement"
       ],
       "conflicts": [
         "ascetic",
@@ -365,31 +399,36 @@
       ],
       "bypassLimit": false,
       "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
         "conflicts": [
           "ascetic",
           "greedy"
         ],
         "stats": [
-
-        ]
+          "Morbid meditation focus type allowed.",
+          "+3 social",
+          "x115% negotiation ability",
+          "x115% trade price improvement"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
       },
       "defName": "Jealous",
-      "name": "jealous",
+      "name": "jealous"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. he will become unhappy if if he has a bedroom that's too impressive. he also dislikes fancy food and prefers to eat raw. he never judges others by their appearance.",
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. he will become unhappy if he has a bedroom that's too impressive. he also dislikes fancy food and prefers to eat raw. he never judges others by their appearance.",
       "stats": [
-
+        "Artistic meditation focus type disabled.",
+        "Minimal meditation focus type allowed.",
+        "x50% global certainty loss factor"
       ],
       "conflicts": [
         "greedy",
@@ -398,1625 +437,5736 @@
       ],
       "bypassLimit": false,
       "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
         "conflicts": [
           "greedy",
           "jealous",
           "gourmand"
         ],
         "stats": [
-
-        ]
+          "Artistic meditation focus type disabled.",
+          "Minimal meditation focus type allowed.",
+          "x50% global certainty loss factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
       },
       "defName": "Ascetic",
-      "name": "ascetic",
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
+      "name": "ascetic"
     },
     {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 500,
+      "removePrice": 350,
+      "degree": 0,
       "description": "Timmy is romantically attracted to people of his own gender.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Gay",
-      "name": "gay",
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
+      "name": "gay"
     },
     {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 500,
+      "removePrice": 350,
+      "degree": 0,
       "description": "Timmy is romantically attracted to both men and women.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Bisexual",
-      "name": "bisexual",
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
+      "name": "bisexual"
     },
     {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 500,
+      "removePrice": 350,
+      "degree": 0,
       "description": "Timmy has no sexual attraction to anyone at all.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Asexual",
-      "name": "asexual",
+      "name": "asexual"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
+      "removePrice": 1350,
+      "degree": 0,
       "description": "Timmy's voice has a particularly grating, nasal quality to it, and he tends to talk in barked, garbled phrases. This predisposes others to dislike him.",
       "stats": [
-
+        "x110% move speed",
+        "x150% recreation power"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "x110% move speed",
+          "x150% recreation power"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "AnnoyingVoice",
-      "name": "annoyingvoice",
+      "name": "annoyingvoice"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
+      "removePrice": 1350,
+      "degree": 0,
       "description": "Timmy breathes heavily all the time, and sweats constantly. People find it creepy.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "CreepyBreathing",
-      "name": "creepybreathing",
+      "name": "creepybreathing"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy loves fire. he will never extinguish fires. To relieve stress, he will occasionally go on random fire starting sprees. This happens more often if his mood is low.",
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy loves fire. he will never extinguish fires. To relieve stress, he will occasionally go on random fire starting sprees. This happens more often if his mood is low. Somehow this fascination with fire leads to a lot more inspiration.",
       "stats": [
-        "Only mental break \"FireStartingSpree\" allowed."
+        "Flame meditation focus type allowed.",
+        "Only mental break \"FireStartingSpree\" allowed.",
+        "x115% Maximum comfortable temperature"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "Flame meditation focus type allowed.",
+          "Only mental break \"FireStartingSpree\" allowed.",
+          "x115% Maximum comfortable temperature"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "Only mental break \"FireStartingSpree\" allowed."
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Pyromaniac",
-      "name": "pyromaniac",
+      "name": "pyromaniac"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy is weak and cowardly. Even a little pain will immobilize him.",
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is weak and cowardly. Even a little pain will immobilize him. At least he is really good at running and for whatever reason seems to be nearly immune to toxic substances.",
       "stats": [
-        "-60% pain shock threshold"
+        "+3 medical",
+        "-50% pain shock threshold",
+        "x200% global certainty loss factor",
+        "x120% move speed"
       ],
       "conflicts": [
-        "brawler"
+        "brawler",
+        "masochist",
+        "unstoppable",
+        "ironman",
+        "lowpaintolerance"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "brawler",
+          "masochist",
+          "unstoppable",
+          "ironman",
+          "lowpaintolerance"
+        ],
+        "stats": [
+          "+3 medical",
+          "-50% pain shock threshold",
+          "x200% global certainty loss factor",
+          "x120% move speed"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "brawler"
-        ],
-        "stats": [
-          "-60% pain shock threshold"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Wimp",
-      "name": "wimp",
+      "name": "wimp"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
+      "removePrice": 1350,
+      "degree": 0,
       "description": "Timmy has remarkable kinesthetic intelligence. he seems to dance around danger with preternatural grace.",
       "stats": [
-        "+15.0 melee dodge chance",
+        "+0.5 melee dodge chance",
         "x10% trap spring chance"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+0.5 melee dodge chance",
+          "x10% trap spring chance"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+15.0 melee dodge chance",
-          "x10% trap spring chance"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Nimble",
-      "name": "nimble",
+      "name": "nimble"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
+      "removePrice": 1350,
+      "degree": 2,
+      "description": "Timmy has cat-like reflexes, and excels at evading attacks.",
+      "stats": [
+        "+20.0 melee dodge chance"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+20.0 melee dodge chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Nimble",
+      "name": "deftlydodger"
     },
     {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": -1,
+      "description": "Timmy is not very good at getting out of the way of blows.",
+      "stats": [
+        "-10.0 melee dodge chance"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "-10.0 melee dodge chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Nimble",
+      "name": "sluggish"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
       "description": "Timmy has a knack for learning. he picks things up much faster than others.",
       "stats": [
         "+75% global learning factor"
       ],
       "conflicts": [
-
+        "dunce",
+        "savant"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "dunce",
+          "savant"
+        ],
+        "stats": [
+          "+75% global learning factor"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+75% global learning factor"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "FastLearner",
-      "name": "fastlearner",
+      "name": "fastlearner"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy is slow on the uptake. he learns much slower than others.",
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy has never learned how to learn. The motivation and talent is there, he just needs time and patience. \n\n    Each skill point increases global learning factor by 2%",
       "stats": [
-        "-75% global learning factor"
+        "-75% global learning factor",
+        "x50% global certainty loss factor",
+        "x110% global work speed",
+        "x125% general labor speed"
       ],
       "conflicts": [
         "toosmart"
       ],
       "bypassLimit": false,
       "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
         "conflicts": [
           "toosmart"
         ],
         "stats": [
-          "-75% global learning factor"
-        ]
-      },
-      "defName": "SlowLearner",
-      "name": "slowlearner",
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy has no need to experience the outdoors or light. he will never feel cooped up or get cabin fever, no matter how long he stays inside, and is not bothered by darkness.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
-      "bypassLimit": false,
-      "data": {
+          "-75% global learning factor",
+          "x50% global certainty loss factor",
+          "x110% global work speed",
+          "x125% general labor speed"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
-      "defName": "Undergrounder",
-      "name": "undergrounder",
+      "defName": "SlowLearner",
+      "name": "slowlearner"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy has no need to experience the outdoors or light. he will never feel cooped up or get cabin fever and is not bothered by darkness. However, Timmy will be unhappy while outdoors.",
+      "stats": [
+        "Morbid meditation focus type allowed."
+      ],
+      "conflicts": [
+        "outdoorsy"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "outdoorsy"
+        ],
+        "stats": [
+          "Morbid meditation focus type allowed."
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Undergrounder",
+      "name": "undergrounder"
     },
     {
-      "description": "Timmy feels limited in his feeble human body. he often dreams of being enhanced by artificial body parts.",
-      "stats": [
-
-      ],
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy feels limited in his feeble human body. he often dreams of being enhanced with artificial body parts or xenogenetics.",
+      "stats": [],
       "conflicts": [
         "bodypurist"
       ],
       "bypassLimit": false,
       "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
         "conflicts": [
           "bodypurist"
         ],
-        "stats": [
-
-        ]
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
       },
       "defName": "Transhumanist",
-      "name": "transhumanist",
+      "name": "bodymodder"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy believes the human body is limited for a reason. To him, artificial body parts are unethical and disgusting.",
-      "stats": [
-
-      ],
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy believes the human body is limited for a reason. To him, artificial body parts and xenogenes are unethical and disgusting.",
+      "stats": [],
       "conflicts": [
-        "transhumanist"
+        "bodymodder"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "bodymodder"
+        ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "transhumanist"
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "BodyPurist",
-      "name": "bodypurist",
+      "name": "bodypurist"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
+      "removePrice": 1350,
+      "degree": 0,
       "description": "Timmy really dislikes and distrusts men.",
-      "stats": [
-
-      ],
+      "stats": [],
       "conflicts": [
-
+        "open-minded"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "open-minded"
+        ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "DislikesMen",
-      "name": "misandrist",
+      "name": "misandrist"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
+      "removePrice": 1350,
+      "degree": 0,
       "description": "Timmy really dislikes and distrusts women.",
-      "stats": [
-
-      ],
+      "stats": [],
       "conflicts": [
-
+        "open-minded"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "open-minded"
+        ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "DislikesWomen",
-      "name": "misogynist",
+      "name": "misogynist"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
+      "removePrice": 1350,
+      "degree": 0,
       "description": "Timmy has a fantastic memory for detail. he will lose unused skills at half the rate of other people.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "GreatMemory",
-      "name": "greatmemory",
+      "name": "greatmemory"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy has thick skin, dense flesh, and durable bones. he takes much less damage than other people from the same blows. he is extremely hard to kill.",
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy has thick skin, dense flesh, and durable bones. he takes much less damage than other people from the same blows. he stands solid like a rock, and equally unmovable.",
       "stats": [
-        "x50% incoming damage multiplier"
+        "x66% incoming damage multiplier"
       ],
       "conflicts": [
-
+        "wimp",
+        "unstoppable",
+        "ironman",
+        "lowpaintolerance"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "wimp",
+          "unstoppable",
+          "ironman",
+          "lowpaintolerance"
+        ],
+        "stats": [
+          "x66% incoming damage multiplier"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "x50% incoming damage multiplier"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Tough",
-      "name": "tough",
+      "name": "tough"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
+      "removePrice": 1350,
+      "degree": 0,
       "description": "Timmy feels alienated and misunderstood by other human beings. he will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break.",
       "stats": [
-
+        "Go frenzy inspiration disabled.",
+        "Shoot frenzy inspiration disabled.",
+        "Inspired trade inspiration disabled.",
+        "Inspired recruitment inspiration disabled.",
+        "Inspired surgery inspiration disabled.",
+        "Inspired taming inspiration disabled.",
+        "Morbid meditation focus type allowed.",
+        "+2 artistic"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "Go frenzy inspiration disabled.",
+          "Shoot frenzy inspiration disabled.",
+          "Inspired trade inspiration disabled.",
+          "Inspired recruitment inspiration disabled.",
+          "Inspired surgery inspiration disabled.",
+          "Inspired taming inspiration disabled.",
+          "Morbid meditation focus type allowed.",
+          "+2 artistic"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "TorturedArtist",
-      "name": "torturedartist",
+      "name": "torturedartist"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy's life revolves around food. he gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry.",
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy's life revolves around food. he gets hungry quickly but also eats faster, cooks faster and knows his ingredients, barely ever causing food poisoning.",
       "stats": [
         "Only mental break \"Binging_Food\" allowed.",
-        "+4 cooking"
+        "+4 cooking",
+        "x75% eating speed"
       ],
       "conflicts": [
         "ascetic"
       ],
       "bypassLimit": false,
       "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
         "conflicts": [
           "ascetic"
         ],
         "stats": [
           "Only mental break \"Binging_Food\" allowed.",
-          "+4 cooking"
-        ]
-      },
-      "defName": "Gourmand",
-      "name": "gourmand",
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
-    },
-    {
-      "description": "Timmy doesn't need as much sleep as the average person. Whether he's sleeping on a bed or on the ground, he will be fully rested in about two thirds the usual time.",
-      "stats": [
-        "+50% rest rate multiplier"
-      ],
-      "conflicts": [
-
-      ],
-      "bypassLimit": false,
-      "data": {
+          "+4 cooking",
+          "x75% eating speed"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+50% rest rate multiplier"
-        ]
+        "karmaTypeForAdding": null
       },
-      "defName": "QuickSleeper",
-      "name": "quicksleeper",
+      "defName": "Gourmand",
+      "name": "gourmand"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy doesn't need as much sleep as the average person. Whether he's sleeping on a bed or on the ground, he will be fully rested in about two thirds the usual time.",
+      "stats": [
+        "+50% rest rate multiplier"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+50% rest rate multiplier"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
+      },
+      "defName": "QuickSleeper",
+      "name": "quicksleeper"
     },
     {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": -1,
       "description": "Timmy is always falling behind the group whenever he goes anywhere.",
       "stats": [
         "Go frenzy inspiration disabled.",
         "-0.20 move speed"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "Go frenzy inspiration disabled.",
+          "-0.20 move speed"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "Go frenzy inspiration disabled.",
-          "-0.20 move speed"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "SpeedOffset",
-      "name": "slowpoke",
+      "name": "slowpoke"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": -1
-    },
-    {
+      "removePrice": 1350,
+      "degree": 1,
       "description": "Timmy likes to be where he's going. he walks quicker than most people.",
       "stats": [
         "+0.20 move speed"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+0.20 move speed"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+0.20 move speed"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "SpeedOffset",
-      "name": "fastwalker",
+      "name": "fastwalker"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 1
-    },
-    {
+      "removePrice": 1350,
+      "degree": 2,
       "description": "Timmy always moves with a sense of urgency - so much so that others often fail to keep up.",
       "stats": [
         "+0.40 move speed"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
+        "conflicts": [],
         "stats": [
           "+0.40 move speed"
-        ]
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
       },
       "defName": "SpeedOffset",
-      "name": "jogger",
+      "name": "jogger"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 2
-    },
-    {
-      "description": "Timmy is utterly fascinated with chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possibly drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
+      "removePrice": 1350,
+      "degree": 2,
+      "description": "Timmy has an intense fascination with chemical sources of enjoyment. he will consume much more of them and, if not already addicted to any drug and satisfied, will sometimes go on hard drug binges. he will ignore directives to not use pleasurable drugs. If there is one upside to this it's all the inspiration one can get from drugs.",
       "stats": [
-
+        "+3 medical",
+        "+3 plants"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+3 medical",
+          "+3 plants"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "DrugDesire",
-      "name": "chemicalfascination",
+      "name": "chemicalfascination"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 2
-    },
-    {
-      "description": "Timmy has an unusual interest in chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possible drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
+      "removePrice": 1350,
+      "degree": 1,
+      "description": "Timmy has an unusual interest in chemical sources of enjoyment. he will consume more of them and, if not already addicted to any drug and satisfied, will sometimes go on social drug binges. he will ignore directives to not use pleasurable drugs. If there is one upside to this it's all the inspiration one can get from drugs.",
       "stats": [
-
+        "+1 medical",
+        "+1 plants"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+1 medical",
+          "+1 plants"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "DrugDesire",
-      "name": "chemicalinterest",
+      "name": "chemicalinterest"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 1
-    },
-    {
-      "description": "Timmy abhors the idea of gaining pleasure from chemicals. he strictly avoids alcohol and recreational drugs.",
+      "removePrice": 1350,
+      "degree": -1,
+      "description": "Timmy abhors the idea of gaining pleasure from chemicals, and avoids alcohol and pleasurable drugs. he is a hard working individual.",
       "stats": [
         "Binging on drug mental state disabled.",
         "Binging on drug mental state disabled."
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
+        "conflicts": [],
         "stats": [
           "Binging on drug mental state disabled.",
           "Binging on drug mental state disabled."
-        ]
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
       },
       "defName": "DrugDesire",
-      "name": "teetotaler",
+      "name": "teetotaler"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": -1
-    },
-    {
+      "removePrice": 1350,
+      "degree": 2,
       "description": "Timmy is just naturally upbeat about his situation, pretty much all the time, no matter what it is.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "NaturalMood",
-      "name": "sanguine",
+      "name": "sanguine"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 2
-    },
-    {
+      "removePrice": 1350,
+      "degree": 1,
       "description": "Timmy is naturally optimistic about life. It's hard to get him down.",
-      "stats": [
-
-      ],
-      "conflicts": [
-
-      ],
+      "stats": [],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "NaturalMood",
-      "name": "optimist",
+      "name": "optimist"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 1
-    },
-    {
+      "removePrice": 1350,
+      "degree": -1,
       "description": "Timmy tends to look on the bad side of life.",
       "stats": [
-
+        "+2 animals",
+        "x105% tame animal chance",
+        "x110% train animal chance"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+2 animals",
+          "x105% tame animal chance",
+          "x110% train animal chance"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "NaturalMood",
-      "name": "pessimist",
+      "name": "pessimist"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": -1
-    },
-    {
-      "description": "Timmy is perenially unhappy. he has trouble sustaining a good mood even when everything is fine.",
+      "removePrice": 1350,
+      "degree": -2,
+      "description": "Timmy is perenially unhappy. he has trouble sustaining a good mood even when everything is fine. his only way to deal with it is hiding in his room or wandering around in sadness.",
       "stats": [
-
+        "+3 animals",
+        "x110% tame animal chance",
+        "x115% train animal chance"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+3 animals",
+          "x110% tame animal chance",
+          "x115% train animal chance"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "NaturalMood",
-      "name": "depressive",
+      "name": "depressive"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": -2
-    },
-    {
+      "removePrice": 1350,
+      "degree": 2,
       "description": "Timmy's will is an iron shield. he keeps going through thick and thin, when others broke down long before.",
       "stats": [
-        "-18% mental break threshold"
+        "-18% mental break threshold",
+        "x25% global certainty loss factor"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "-18% mental break threshold",
+          "x25% global certainty loss factor"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "-18% mental break threshold"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Nerves",
-      "name": "iron-willed",
+      "name": "iron-willed"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 2
-    },
-    {
+      "removePrice": 1350,
+      "degree": 1,
       "description": "Timmy is mentally tough and won't break down under stresses that would crack most people.",
       "stats": [
-        "-9% mental break threshold"
+        "-9% mental break threshold",
+        "x50% global certainty loss factor"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "-9% mental break threshold",
+          "x50% global certainty loss factor"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "-9% mental break threshold"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Nerves",
-      "name": "steadfast",
+      "name": "steadfast"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 1
-    },
-    {
+      "removePrice": 1350,
+      "degree": -1,
       "description": "Timmy tends to crack under pressure.",
       "stats": [
-        "+8% mental break threshold"
+        "+2 intellectual",
+        "+8% mental break threshold",
+        "x200% global certainty loss factor",
+        "x110% global learning factor"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+2 intellectual",
+          "+8% mental break threshold",
+          "x200% global certainty loss factor",
+          "x110% global learning factor"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+8% mental break threshold"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Nerves",
-      "name": "nervous",
+      "name": "nervous"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": -1
-    },
-    {
-      "description": "Timmy is on a hair-trigger all the time. he is the first to break in any tough situation.",
+      "removePrice": 1350,
+      "degree": -2,
+      "description": "Timmy is on a hair-trigger all the time. he is the first to break in any tough situation. If that happens he will find something to smash.",
       "stats": [
-        "+15% mental break threshold"
+        "+3 intellectual",
+        "+15% mental break threshold",
+        "x300% global certainty loss factor",
+        "x115% global learning factor"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+3 intellectual",
+          "+15% mental break threshold",
+          "x300% global certainty loss factor",
+          "x115% global learning factor"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+15% mental break threshold"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Nerves",
-      "name": "volatile",
+      "name": "volatile"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": -2
-    },
-    {
-      "description": "Timmy likes to have things squared away. he will work harder than most to attain this state of affairs, but his nerves can get the better of him.",
+      "removePrice": 1350,
+      "degree": 1,
+      "description": "Timmy likes to have things squared away. he will work harder than most to attain this state of affairs, but his random mood swings can get the better of him.",
       "stats": [
         "+20% global work speed",
         "+8% mental break threshold"
       ],
       "conflicts": [
-
+        "heavysleeper"
       ],
       "bypassLimit": false,
       "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
         "conflicts": [
-
+          "heavysleeper"
         ],
         "stats": [
           "+20% global work speed",
           "+8% mental break threshold"
-        ]
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
       },
       "defName": "Neurotic",
-      "name": "neurotic",
+      "name": "neurotic"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 1
-    },
-    {
-      "description": "Timmy feels constantly nervous about everything that has to get done. he will work extremely hard to attain this state of affairs, but his nerves can easily get the better of him.",
+      "removePrice": 1350,
+      "degree": 2,
+      "description": "Timmy feels constantly nervous about everything that has to get done. he will work extremely hard to attain this state of affairs, but his random mood swings can easily get the better of him.",
       "stats": [
         "+40% global work speed",
         "+14% mental break threshold"
       ],
       "conflicts": [
-
+        "heavysleeper"
       ],
       "bypassLimit": false,
       "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
         "conflicts": [
-
+          "heavysleeper"
         ],
         "stats": [
           "+40% global work speed",
           "+14% mental break threshold"
-        ]
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
       },
       "defName": "Neurotic",
-      "name": "veryneurotic",
+      "name": "veryneurotic"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 2
-    },
-    {
+      "removePrice": 1350,
+      "degree": 2,
       "description": "Timmy has an easy time staying on-task and focused, and gets things done much faster than the average person.",
       "stats": [
         "+35% global work speed"
       ],
       "conflicts": [
-
+        "inept",
+        "coordinated",
+        "perfectionist"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "inept",
+          "coordinated",
+          "perfectionist"
+        ],
+        "stats": [
+          "+35% global work speed"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+35% global work speed"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Industriousness",
-      "name": "industrious",
+      "name": "industrious"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 2
-    },
-    {
+      "removePrice": 1350,
+      "degree": 1,
       "description": "Timmy is a natural hard worker and will finish tasks faster than most.",
       "stats": [
         "+20% global work speed"
       ],
       "conflicts": [
-
+        "inept",
+        "coordinated",
+        "perfectionist"
       ],
       "bypassLimit": false,
       "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
         "conflicts": [
-
+          "inept",
+          "coordinated",
+          "perfectionist"
         ],
         "stats": [
           "+20% global work speed"
-        ]
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
       },
       "defName": "Industriousness",
-      "name": "hardworker",
+      "name": "hardworker"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 1
-    },
-    {
+      "removePrice": 1350,
+      "degree": -1,
       "description": "Timmy is a little bit lazy.",
       "stats": [
-        "-20% global work speed"
+        "-20% global work speed",
+        "x90% mental break threshold"
       ],
       "conflicts": [
-
+        "inept",
+        "coordinated",
+        "perfectionist"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "inept",
+          "coordinated",
+          "perfectionist"
+        ],
+        "stats": [
+          "-20% global work speed",
+          "x90% mental break threshold"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "-20% global work speed"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Industriousness",
-      "name": "lazy",
+      "name": "lazy"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": -1
-    },
-    {
+      "removePrice": 1350,
+      "degree": -2,
       "description": "Timmy loves idleness and hates anything productive. he moves slowly and rarely stays focused on a task.",
       "stats": [
-        "-35% global work speed"
+        "-35% global work speed",
+        "x80% mental break threshold"
       ],
       "conflicts": [
-
+        "inept",
+        "coordinated",
+        "perfectionist"
       ],
       "bypassLimit": false,
       "data": {
+        "conflicts": [
+          "inept",
+          "coordinated",
+          "perfectionist"
+        ],
+        "stats": [
+          "-35% global work speed",
+          "x80% mental break threshold"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "-35% global work speed"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Industriousness",
-      "name": "slothful",
+      "name": "slothful"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": -2
-    },
-    {
+      "removePrice": 1350,
+      "degree": 2,
       "description": "Timmy's mind is like a psychic tuning fork. he is extremely sensitive to psychic phenomena.",
       "stats": [
         "+80% psychic sensitivity"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+80% psychic sensitivity"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+80% psychic sensitivity"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "PsychicSensitivity",
-      "name": "psychicallyhypersensitive",
+      "name": "psychicallyhypersensitive"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 2
-    },
-    {
+      "removePrice": 1350,
+      "degree": 1,
       "description": "Timmy's mind is unusually sensitive to psychic phenomena.",
       "stats": [
         "+40% psychic sensitivity"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+40% psychic sensitivity"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+40% psychic sensitivity"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "PsychicSensitivity",
-      "name": "psychicallysensitive",
+      "name": "psychicallysensitive"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 1
-    },
-    {
+      "removePrice": 1350,
+      "degree": -1,
       "description": "Timmy's mind is psychically out of tune with others. he isn't as affected by psychic phenomena.",
       "stats": [
         "-50% psychic sensitivity"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "-50% psychic sensitivity"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "-50% psychic sensitivity"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "PsychicSensitivity",
-      "name": "psychicallydull",
+      "name": "psychicallydull"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": -1
-    },
-    {
+      "removePrice": 1350,
+      "degree": -2,
       "description": "Timmy's mind works on a psychic frequency different from everyone else. he just isn't affected by psychic phenomena.",
       "stats": [
         "-100% psychic sensitivity"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
+        "conflicts": [],
         "stats": [
           "-100% psychic sensitivity"
-        ]
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
       },
       "defName": "PsychicSensitivity",
-      "name": "psychicallydeaf",
+      "name": "psychicallydeaf"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": -2
-    },
-    {
-      "description": "Timmy takes more time to aim when shooting. he shoots less often than others, but with more accuracy.",
-      "stats": [
-        "+25% aiming time",
-        "+5.0 shooting accuracy"
-      ],
-      "conflicts": [
-        "brawler"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "brawler"
-        ],
-        "stats": [
-          "+25% aiming time",
-          "+5.0 shooting accuracy"
-        ]
-      },
-      "defName": "ShootingAccuracy",
-      "name": "carefulshooter",
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 1
-    },
-    {
-      "description": "Pew! Pew! Pew! Timmy just likes pulling the trigger. he shoots faster than others, but less accurately.",
-      "stats": [
-        "-50% aiming time",
-        "-5.0 shooting accuracy"
-      ],
-      "conflicts": [
-        "brawler"
-      ],
-      "bypassLimit": false,
-      "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-          "brawler"
-        ],
-        "stats": [
-          "-50% aiming time",
-          "-5.0 shooting accuracy"
-        ]
-      },
-      "defName": "ShootingAccuracy",
-      "name": "trigger-happy",
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": -1
-    },
-    {
+      "removePrice": 1350,
+      "degree": 2,
       "description": "Timmy is exceptionally beautiful, with an exotic-yet-familiar facial structure and an arresting gaze. People are attracted to him before he even opens his mouth.",
       "stats": [
         "+2.0 beauty"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+2.0 beauty"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+2.0 beauty"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Beauty",
-      "name": "beautiful",
+      "name": "beautiful"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 2
-    },
-    {
+      "removePrice": 1350,
+      "degree": 1,
       "description": "Timmy has a pretty face, which predisposes people to like him.",
       "stats": [
         "+1.0 beauty"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
+        "conflicts": [],
         "stats": [
           "+1.0 beauty"
-        ]
-      },
-      "defName": "Beauty",
-      "name": "pretty",
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 1
-    },
-    {
-      "description": "Timmy is somewhat ugly. This subtly repels others during social interactions.",
-      "stats": [
-        "-1.0 beauty"
-      ],
-      "conflicts": [
-
-      ],
-      "bypassLimit": false,
-      "data": {
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "-1.0 beauty"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Beauty",
-      "name": "ugly",
+      "name": "pretty"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": -1
-    },
-    {
-      "description": "Timmy is staggeringly ugly. his face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at him while conversing.",
+      "removePrice": 1350,
+      "degree": -1,
+      "description": "Timmy is somewhat ugly. This subtly repels others during social interactions. If there is an upside to this than that no one minds if his face has a scar or two.",
       "stats": [
-        "-2.0 beauty"
+        "Inspired recruitment inspiration disabled.",
+        "-1.0 beauty",
+        "x110% global work speed"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "Inspired recruitment inspiration disabled.",
+          "-1.0 beauty",
+          "x110% global work speed"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "-2.0 beauty"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Beauty",
-      "name": "staggeringlyugly",
+      "name": "ugly"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": -2
+      "removePrice": 1350,
+      "degree": -2,
+      "description": "Timmy is staggeringly ugly. his face looks like a cross between a drawing by an untalented child, a malformed fetus in a jar of formaldehyde, and a piece of modern art. Others must exert conscious effort to look at him while conversing. If there is an upside to this than that no one minds if his face has a scar or two... or ten.",
+      "stats": [
+        "Inspired trade inspiration disabled.",
+        "Inspired recruitment inspiration disabled.",
+        "-2.0 beauty",
+        "x115% global work speed"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "Inspired trade inspiration disabled.",
+          "Inspired recruitment inspiration disabled.",
+          "-2.0 beauty",
+          "x115% global work speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimWorld",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Beauty",
+      "name": "staggeringlyugly"
     },
     {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 1,
       "description": "Timmy has a naturally powerful immune system. he will gain immunity much faster than a normal person would, and can survive illnesses that would kill others.",
       "stats": [
         "+30% immunity gain speed"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+30% immunity gain speed"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+30% immunity gain speed"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Immunity",
-      "name": "super-immune",
+      "name": "super-immune"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 1
-    },
-    {
+      "removePrice": 1350,
+      "degree": -1,
       "description": "Timmy has an awful immune system. he gets sick more often than usual, frequently with illnesses that nobody in the colony has been afflicted by.",
       "stats": [
         "+4 medical"
       ],
-      "conflicts": [
-
-      ],
+      "conflicts": [],
       "bypassLimit": false,
       "data": {
+        "conflicts": [],
+        "stats": [
+          "+4 medical"
+        ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
         "mod": "RimWorld",
-        "karmaTypeForAdding": null,
-        "conflicts": [
-
-        ],
-        "stats": [
-          "+4 medical"
-        ]
+        "karmaTypeForAdding": null
       },
       "defName": "Immunity",
-      "name": "sickly",
+      "name": "sickly"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy has fragile skin and bones. he takes more damage than other people from the same blows.",
+      "stats": [
+        "x115% incoming damage multiplier"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "x115% incoming damage multiplier"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Biotech",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Delicate",
+      "name": "delicate"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "The fewer people in Timmy's faction, the happier he is. Being alone is best of all.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Biotech",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Recluse",
+      "name": "recluse"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": -1,
+      "description": "Timmy is a messy person. he tends to leave dirt and trash where ever he goes and is slow to clean up after himself.",
+      "stats": [
+        "-50% cleaning speed multiplier",
+        "x200% filth rate"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "-50% cleaning speed multiplier",
+          "x200% filth rate"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Cleaning Speed",
+        "karmaTypeForAdding": null
+      },
+      "defName": "CleaningSpeedOffset",
+      "name": "slovenly"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 1,
+      "description": "Timmy likes clean environments. he cleans quickly and avoids leaving dirt and trash.",
+      "stats": [
+        "+50% cleaning speed multiplier",
+        "x50% filth rate"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+50% cleaning speed multiplier",
+          "x50% filth rate"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Cleaning Speed",
+        "karmaTypeForAdding": null
+      },
+      "defName": "CleaningSpeedOffset",
+      "name": "fastidious"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy finds it difficult to focus on distant targets, and prefer to get up close and personal.",
+      "stats": [
+        "-2 shooting",
+        "+2 melee",
+        "-0.4 weapon handling",
+        "+15% aiming time",
+        "+1.0 melee hit chance",
+        "+0.1 melee dodge chance"
+      ],
+      "conflicts": [
+        "farsighted"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "farsighted"
+        ],
+        "stats": [
+          "-2 shooting",
+          "+2 melee",
+          "-0.4 weapon handling",
+          "+15% aiming time",
+          "+1.0 melee hit chance",
+          "+0.1 melee dodge chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Nearsighted",
+      "name": "nearsighted"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy could spot a target from nearly a hundred meters, yet still somehow walk into walls.",
+      "stats": [
+        "+2 shooting",
+        "-2 melee",
+        "+0.5 weapon handling",
+        "-15% aiming time",
+        "-1.0 melee hit chance",
+        "-0.1 melee dodge chance"
+      ],
+      "conflicts": [
+        "nearsighted"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "nearsighted"
+        ],
+        "stats": [
+          "+2 shooting",
+          "-2 melee",
+          "+0.5 weapon handling",
+          "-15% aiming time",
+          "-1.0 melee hit chance",
+          "-0.1 melee dodge chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Farsighted",
+      "name": "farsighted"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy's movements are smooth and graceful.",
+      "stats": [
+        "+0.1 melee dodge chance",
+        "+0.10 move speed"
+      ],
+      "conflicts": [
+        "stiff"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "stiff"
+        ],
+        "stats": [
+          "+0.1 melee dodge chance",
+          "+0.10 move speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Athletic",
+      "name": "athletic"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is so rigid, it's almost like he is souless.",
+      "stats": [
+        "-0.1 melee dodge chance",
+        "-0.10 move speed"
+      ],
+      "conflicts": [
+        "athletic"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "athletic"
+        ],
+        "stats": [
+          "-0.1 melee dodge chance",
+          "-0.10 move speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Stiff",
+      "name": "stiff"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy takes care of his personal hygiene.",
+      "stats": [
+        "-10.00% food poison chance"
+      ],
+      "conflicts": [
+        "poorhygiene"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "poorhygiene"
+        ],
+        "stats": [
+          "-10.00% food poison chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_GoodHygiene",
+      "name": "goodhygiene"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy doesn't care about his hygiene, and sometimes get sick from bad food.",
+      "stats": [
+        "+10.00% food poison chance"
+      ],
+      "conflicts": [
+        "goodhygiene"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "goodhygiene"
+        ],
+        "stats": [
+          "+10.00% food poison chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_PoorHygiene",
+      "name": "poorhygiene"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy often gets his way with things.",
+      "stats": [
+        "+25.00% negotiation ability",
+        "+25.00% Arrest success chance"
+      ],
+      "conflicts": [
+        "unconvincing"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "unconvincing"
+        ],
+        "stats": [
+          "+25.00% negotiation ability",
+          "+25.00% Arrest success chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Persuasive",
+      "name": "persuasive"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy has never won a debate in his life.",
+      "stats": [
+        "-25.00% negotiation ability",
+        "-25.00% Arrest success chance"
+      ],
+      "conflicts": [
+        "persuasive"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "persuasive"
+        ],
+        "stats": [
+          "-25.00% negotiation ability",
+          "-25.00% Arrest success chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Unconvincing",
+      "name": "unconvincing"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy has been in plenty of fights since he was a kid, and had built up a tolerance to injury and pain as a result.",
+      "stats": [
+        "-10% incoming damage multiplier",
+        "+5% pain shock threshold"
+      ],
+      "conflicts": [
+        "fragile",
+        "feeble"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "fragile",
+          "feeble"
+        ],
+        "stats": [
+          "-10% incoming damage multiplier",
+          "+5% pain shock threshold"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Resilient",
+      "name": "resilient"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy lived a pampered life until now, and is unused to the brutal challenges present out in the Rim.",
+      "stats": [
+        "+10% incoming damage multiplier",
+        "-5% pain shock threshold"
+      ],
+      "conflicts": [
+        "resilient",
+        "hardy",
+        "tough"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "resilient",
+          "hardy",
+          "tough"
+        ],
+        "stats": [
+          "+10% incoming damage multiplier",
+          "-5% pain shock threshold"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Fragile",
+      "name": "fragile"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy always tackle his tasks with great enthusism.",
+      "stats": [
+        "+20% global work speed",
+        "+0.15 move speed"
+      ],
+      "conflicts": [
+        "sluggish"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "sluggish"
+        ],
+        "stats": [
+          "+20% global work speed",
+          "+0.15 move speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Energetic",
+      "name": "energetic"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is slow. Sooo... slooow...",
+      "stats": [
+        "-20% global work speed",
+        "-0.15 move speed"
+      ],
+      "conflicts": [
+        "energetic"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "energetic"
+        ],
+        "stats": [
+          "-20% global work speed",
+          "-0.15 move speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Sluggish",
+      "name": "sluggish"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy always sleep like a baby.",
+      "stats": [
+        "+25% rest rate multiplier"
+      ],
+      "conflicts": [
+        "restless"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "restless"
+        ],
+        "stats": [
+          "+25% rest rate multiplier"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Restful",
+      "name": "restful"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy often has a difficult time falling asleep.",
+      "stats": [
+        "-25% rest rate multiplier"
+      ],
+      "conflicts": [
+        "restful"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "restful"
+        ],
+        "stats": [
+          "-25% rest rate multiplier"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Restless",
+      "name": "restless"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is quite productive when it comes to work.",
+      "stats": [
+        "+20% global work speed",
+        "+20% global learning factor"
+      ],
+      "conflicts": [
+        "inefficient"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "inefficient"
+        ],
+        "stats": [
+          "+20% global work speed",
+          "+20% global learning factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Efficient",
+      "name": "efficient"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is somewhat of a bottleneck in the colony.",
+      "stats": [
+        "-20% global work speed",
+        "-20% global learning factor"
+      ],
+      "conflicts": [
+        "efficient"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "efficient"
+        ],
+        "stats": [
+          "-20% global work speed",
+          "-20% global learning factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Inefficient",
+      "name": "inefficient"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is brave, he would stand his ground where others would scramble and run.",
+      "stats": [
+        "-5% mental break threshold",
+        "+5% pain shock threshold"
+      ],
+      "conflicts": [
+        "craven"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "craven"
+        ],
+        "stats": [
+          "-5% mental break threshold",
+          "+5% pain shock threshold"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Valiant",
+      "name": "valiant"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "When there's a fight, Timmy is the first to run.",
+      "stats": [
+        "+5% mental break threshold",
+        "-5% pain shock threshold"
+      ],
+      "conflicts": [
+        "valiant"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "valiant"
+        ],
+        "stats": [
+          "+5% mental break threshold",
+          "-5% pain shock threshold"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Craven",
+      "name": "craven"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy likes a good fight, he will sometimes start a fight just because he can.",
+      "stats": [
+        "+5% mental break threshold"
+      ],
+      "conflicts": [
+        "composed"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "composed"
+        ],
+        "stats": [
+          "+5% mental break threshold"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Rowdy",
+      "name": "rowdy"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is usually calm and collected.",
+      "stats": [
+        "-5% mental break threshold"
+      ],
+      "conflicts": [
+        "rowdy"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "rowdy"
+        ],
+        "stats": [
+          "-5% mental break threshold"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Composed",
+      "name": "composed"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is more comfortable being in hot environment than his peers.",
+      "stats": [
+        "+3.0C [5.4F] Maximum comfortable temperature"
+      ],
+      "conflicts": [
+        "heatintolerant"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "heatintolerant"
+        ],
+        "stats": [
+          "+3.0C [5.4F] Maximum comfortable temperature"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_HeatTolerant",
+      "name": "heattolerant"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy does not like being in the heat.",
+      "stats": [
+        "-3.0C [-5.4F] Maximum comfortable temperature"
+      ],
+      "conflicts": [
+        "heattolerant"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "heattolerant"
+        ],
+        "stats": [
+          "-3.0C [-5.4F] Maximum comfortable temperature"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_HeatIntolerant",
+      "name": "heatintolerant"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is more comfortable being in cold environment than his peers.",
+      "stats": [
+        "-3.0C [-5.4F] Minimum comfortable temperature"
+      ],
+      "conflicts": [
+        "coldintolerant"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "coldintolerant"
+        ],
+        "stats": [
+          "-3.0C [-5.4F] Minimum comfortable temperature"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_ColdTolerant",
+      "name": "coldtolerant"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy does not like being in the cold.",
+      "stats": [
+        "+3.0C [5.4F] Minimum comfortable temperature"
+      ],
+      "conflicts": [
+        "coldtolerant"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "coldtolerant"
+        ],
+        "stats": [
+          "+3.0C [5.4F] Minimum comfortable temperature"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_ColdIntolerant",
+      "name": "coldintolerant"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy has a well built body, people around he find that rather attractive.",
+      "stats": [
+        "+5 carry weight",
+        "+5 bulk capacity",
+        "+1.0 beauty"
+      ],
+      "conflicts": [
+        "frail"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "frail"
+        ],
+        "stats": [
+          "+5 carry weight",
+          "+5 bulk capacity",
+          "+1.0 beauty"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Muscular",
+      "name": "muscular"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy looks a bit fragile, but not in a lovable way.",
+      "stats": [
+        "-3 carry weight",
+        "-3 bulk capacity",
+        "-1.0 beauty"
+      ],
+      "conflicts": [
+        "muscular"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "muscular"
+        ],
+        "stats": [
+          "-3 carry weight",
+          "-3 bulk capacity",
+          "-1.0 beauty"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Frail",
+      "name": "frail"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy doesn't eat or drink much.",
+      "stats": [],
+      "conflicts": [
+        "ravenous"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "ravenous"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Abstinent",
+      "name": "abstinent"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy has a bottomless pit for a stomach.",
+      "stats": [],
+      "conflicts": [
+        "abstinent"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "abstinent"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Ravenous",
+      "name": "ravenous"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is naturally talented, he gets a headstart before everyone else.",
+      "stats": [
+        "+4 shooting",
+        "+4 melee",
+        "+4 construction",
+        "+4 mining",
+        "+4 cooking",
+        "+4 plants",
+        "+4 animals",
+        "+4 crafting",
+        "+4 artistic",
+        "+4 medical",
+        "+4 social",
+        "+4 intellectual"
+      ],
+      "conflicts": [
+        "incompetent"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "incompetent"
+        ],
+        "stats": [
+          "+4 shooting",
+          "+4 melee",
+          "+4 construction",
+          "+4 mining",
+          "+4 cooking",
+          "+4 plants",
+          "+4 animals",
+          "+4 crafting",
+          "+4 artistic",
+          "+4 medical",
+          "+4 social",
+          "+4 intellectual"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Gifted",
+      "name": "gifted"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is someone everyone loves to hate.",
+      "stats": [
+        "-4 shooting",
+        "-4 melee",
+        "-4 construction",
+        "-4 mining",
+        "-4 cooking",
+        "-4 plants",
+        "-4 animals",
+        "-4 crafting",
+        "-4 artistic",
+        "-4 medical",
+        "-4 social",
+        "-4 intellectual"
+      ],
+      "conflicts": [
+        "gifted"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "gifted"
+        ],
+        "stats": [
+          "-4 shooting",
+          "-4 melee",
+          "-4 construction",
+          "-4 mining",
+          "-4 cooking",
+          "-4 plants",
+          "-4 animals",
+          "-4 crafting",
+          "-4 artistic",
+          "-4 medical",
+          "-4 social",
+          "-4 intellectual"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Incompetent",
+      "name": "incompetent"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy takes great care in the preparation of food, he never skip a step just to have an early meal.",
+      "stats": [
+        "-0.8 cooking speed",
+        "-10.00% food poison chance"
+      ],
+      "conflicts": [
+        "impatientcook"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "impatientcook"
+        ],
+        "stats": [
+          "-0.8 cooking speed",
+          "-10.00% food poison chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_PatientCook",
+      "name": "patientcook"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy couldn't care less about following the recipes as long as he can get food into his mouth in record time.",
+      "stats": [
+        "+0.8 cooking speed",
+        "+10.00% food poison chance"
+      ],
+      "conflicts": [
+        "patientcook"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "patientcook"
+        ],
+        "stats": [
+          "+0.8 cooking speed",
+          "+10.00% food poison chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_ImpatientCook",
+      "name": "impatientcook"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy lives a healthy lifestyle, and wakes up feeling energetic and cheerful.",
+      "stats": [
+        "+10% rest rate multiplier",
+        "+10% immunity gain speed",
+        "+5% toxic resistance",
+        "+5% toxic environment resistance",
+        "+1.0C [1.8F] Maximum comfortable temperature",
+        "-1.0C [-1.8F] Minimum comfortable temperature"
+      ],
+      "conflicts": [
+        "chronicallyill"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "chronicallyill"
+        ],
+        "stats": [
+          "+10% rest rate multiplier",
+          "+10% immunity gain speed",
+          "+5% toxic resistance",
+          "+5% toxic environment resistance",
+          "+1.0C [1.8F] Maximum comfortable temperature",
+          "-1.0C [-1.8F] Minimum comfortable temperature"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Healthy",
+      "name": "healthy"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy gets ill quite often, and seem to require more effort to get out of bed than the average person.",
+      "stats": [
+        "-10% rest rate multiplier",
+        "-10% immunity gain speed",
+        "-5% toxic resistance",
+        "-5% toxic environment resistance",
+        "-1.0C [-1.8F] Maximum comfortable temperature",
+        "+1.0C [1.8F] Minimum comfortable temperature"
+      ],
+      "conflicts": [
+        "healthy"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "healthy"
+        ],
+        "stats": [
+          "-10% rest rate multiplier",
+          "-10% immunity gain speed",
+          "-5% toxic resistance",
+          "-5% toxic environment resistance",
+          "-1.0C [-1.8F] Maximum comfortable temperature",
+          "+1.0C [1.8F] Minimum comfortable temperature"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_ChronicallyIll",
+      "name": "chronicallyill"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is comfortable in all seasons.",
+      "stats": [
+        "+3.0C [5.4F] Maximum comfortable temperature",
+        "-3.0C [-5.4F] Minimum comfortable temperature"
+      ],
+      "conflicts": [
+        "temperatureintolerant"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "temperatureintolerant"
+        ],
+        "stats": [
+          "+3.0C [5.4F] Maximum comfortable temperature",
+          "-3.0C [-5.4F] Minimum comfortable temperature"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_TemperatureTolerant",
+      "name": "temperaturetolerant"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy thinks that summer is way too hot, and winter is way too cold.",
+      "stats": [
+        "-3.0C [-5.4F] Maximum comfortable temperature",
+        "+3.0C [5.4F] Minimum comfortable temperature"
+      ],
+      "conflicts": [
+        "temperaturetolerant"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "temperaturetolerant"
+        ],
+        "stats": [
+          "-3.0C [-5.4F] Maximum comfortable temperature",
+          "+3.0C [5.4F] Minimum comfortable temperature"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_TemperatureIntolerant",
+      "name": "temperatureintolerant"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy has good reaction time and finds physical activities less stressful than his peers.",
+      "stats": [
+        "+0.5 weapon handling",
+        "+1.0 melee hit chance",
+        "+0.1 melee dodge chance"
+      ],
+      "conflicts": [
+        "clumsy"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "clumsy"
+        ],
+        "stats": [
+          "+0.5 weapon handling",
+          "+1.0 melee hit chance",
+          "+0.1 melee dodge chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Coordinated",
+      "name": "coordinated"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is easily distracted and often mess up when it comes to physical activities.",
+      "stats": [
+        "-0.4 weapon handling",
+        "-1.0 melee hit chance",
+        "-0.1 melee dodge chance"
+      ],
+      "conflicts": [
+        "coordinated"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "coordinated"
+        ],
+        "stats": [
+          "-0.4 weapon handling",
+          "-1.0 melee hit chance",
+          "-0.1 melee dodge chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Clumsy",
+      "name": "clumsy"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is what people refer to as a 'stronk boi'.",
+      "stats": [
+        "-10% incoming damage multiplier",
+        "+10% immunity gain speed",
+        "+10% toxic resistance",
+        "+10% toxic environment resistance",
+        "+1.0C [1.8F] Maximum comfortable temperature",
+        "-1.0C [-1.8F] Minimum comfortable temperature"
+      ],
+      "conflicts": [
+        "fragile",
+        "feeble"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "fragile",
+          "feeble"
+        ],
+        "stats": [
+          "-10% incoming damage multiplier",
+          "+10% immunity gain speed",
+          "+10% toxic resistance",
+          "+10% toxic environment resistance",
+          "+1.0C [1.8F] Maximum comfortable temperature",
+          "-1.0C [-1.8F] Minimum comfortable temperature"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Hardy",
+      "name": "hardy"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is so fragile, it doesn't take much to take him out of action.",
+      "stats": [
+        "+10% incoming damage multiplier",
+        "-10% immunity gain speed",
+        "-10% toxic resistance",
+        "-10% toxic environment resistance",
+        "-1.0C [-1.8F] Maximum comfortable temperature",
+        "+1.0C [1.8F] Minimum comfortable temperature"
+      ],
+      "conflicts": [
+        "resilient",
+        "hardy",
+        "tough"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "resilient",
+          "hardy",
+          "tough"
+        ],
+        "stats": [
+          "+10% incoming damage multiplier",
+          "-10% immunity gain speed",
+          "-10% toxic resistance",
+          "-10% toxic environment resistance",
+          "-1.0C [-1.8F] Maximum comfortable temperature",
+          "+1.0C [1.8F] Minimum comfortable temperature"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Feeble",
+      "name": "feeble"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Whether by sheer optimism or a force of personality, Timmy always manages to see the bright side of life.",
+      "stats": [
+        "+3 artistic"
+      ],
+      "conflicts": [
+        "constantlybemused"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "constantlybemused"
+        ],
+        "stats": [
+          "+3 artistic"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_EasilyAmused",
+      "name": "easilyamused"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Life to Timmy is an endless, boring joke that he just can't get away from.",
+      "stats": [
+        "-3 artistic"
+      ],
+      "conflicts": [
+        "easilyamused"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "easilyamused"
+        ],
+        "stats": [
+          "-3 artistic"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_ConstantlyBemused",
+      "name": "constantlybemused"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy has an interest in understanding the workings of the world, and is able to apply his knowledge in daily life.",
+      "stats": [
+        "+4 intellectual",
+        "-5% mental break threshold"
+      ],
+      "conflicts": [
+        "ignorant"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "ignorant"
+        ],
+        "stats": [
+          "+4 intellectual",
+          "-5% mental break threshold"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Inquisitive",
+      "name": "inquisitive"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Gaps in Timmy's education and general lack of curiosity makes life often stressful for him.",
+      "stats": [
+        "-4 intellectual",
+        "+5% mental break threshold"
+      ],
+      "conflicts": [
+        "inquisitive"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "inquisitive"
+        ],
+        "stats": [
+          "-4 intellectual",
+          "+5% mental break threshold"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Ignorant",
+      "name": "ignorant"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy likes to keep his surroundings clean, and is used to being in an organised environment.",
+      "stats": [
+        "+5% rest rate multiplier",
+        "+5% global work speed",
+        "+15% cleaning speed multiplier"
+      ],
+      "conflicts": [
+        "messy"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "messy"
+        ],
+        "stats": [
+          "+5% rest rate multiplier",
+          "+5% global work speed",
+          "+15% cleaning speed multiplier"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Tidy",
+      "name": "tidy"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy often neglect their surroundings, making it difficult for him to get work done.",
+      "stats": [
+        "-5% rest rate multiplier",
+        "-5% global work speed",
+        "-15% cleaning speed multiplier"
+      ],
+      "conflicts": [
+        "tidy"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "tidy"
+        ],
+        "stats": [
+          "-5% rest rate multiplier",
+          "-5% global work speed",
+          "-15% cleaning speed multiplier"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "RimTraits - General Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RT_Messy",
+      "name": "messy"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy loves beautiful things, and really cares about how his enviroment looks.",
+      "stats": [],
+      "conflicts": [
+        "ascetic"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "ascetic"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Aesthete",
+      "name": "aesthete"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy loves animals. he doesn't feel quite the same about people, though.",
+      "stats": [
+        "+4 animals",
+        "-2 social",
+        "+10% animal gather speed",
+        "+20% animal gather yield",
+        "+40.00% tame animal chance",
+        "+40.00% train animal chance",
+        "-40.00% social impact"
+      ],
+      "conflicts": [
+        "animalhater",
+        "butcher"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "animalhater",
+          "butcher"
+        ],
+        "stats": [
+          "+4 animals",
+          "-2 social",
+          "+10% animal gather speed",
+          "+20% animal gather yield",
+          "+40.00% tame animal chance",
+          "+40.00% train animal chance",
+          "-40.00% social impact"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_AnimalLover",
+      "name": "animallover"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy just isn't an \"animal person.\" he doesn't like animals, and for the record, they don't seem to much like him, either.",
+      "stats": [
+        "-4 animals",
+        "-10% animal gather speed",
+        "-20% animal gather yield",
+        "-40.00% tame animal chance",
+        "-40.00% train animal chance"
+      ],
+      "conflicts": [
+        "animallover"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "animallover"
+        ],
+        "stats": [
+          "-4 animals",
+          "-10% animal gather speed",
+          "-20% animal gather yield",
+          "-40.00% tame animal chance",
+          "-40.00% train animal chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_AnimalHater",
+      "name": "animalhater"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy loved playing with construction toys as a child, and still enjoys the thrill of \"putting things together.\" But he tends to be a bit lost without clear instructions to follow.",
+      "stats": [
+        "-2 artistic",
+        "+2 construction",
+        "+20% construction speed",
+        "+20% construct success chance",
+        "-40.00% tame animal chance"
+      ],
+      "conflicts": [
+        "inept",
+        "coordinated"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "inept",
+          "coordinated"
+        ],
+        "stats": [
+          "-2 artistic",
+          "+2 construction",
+          "+20% construction speed",
+          "+20% construct success chance",
+          "-40.00% tame animal chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Builder",
+      "name": "builder"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy enjoys preparing meat for cooking. his butchering speed is greatly increased, but only if he's dealing with animal corpses. he's terrible with mechanoids.",
+      "stats": [
+        "+2 cooking",
+        "+20% butchery efficiency",
+        "+40% butchery speed",
+        "-20% mechanoid shredding efficiency",
+        "-40% mechanoid shredding speed"
+      ],
+      "conflicts": [
+        "animallover",
+        "inept",
+        "coordinated"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "animallover",
+          "inept",
+          "coordinated"
+        ],
+        "stats": [
+          "+2 cooking",
+          "+20% butchery efficiency",
+          "+40% butchery speed",
+          "-20% mechanoid shredding efficiency",
+          "-40% mechanoid shredding speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Butcher",
+      "name": "butcher"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is claustrophobic. he is terrified of tight spaces, and thus is not a very competent miner.",
+      "stats": [
+        "-2 mining",
+        "-20% mining speed",
+        "-20% mining yield"
+      ],
+      "conflicts": [
+        "inept",
+        "coordinated",
+        "rockhound"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "inept",
+          "coordinated",
+          "rockhound"
+        ],
+        "stats": [
+          "-2 mining",
+          "-20% mining speed",
+          "-20% mining yield"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Claustrophobic",
+      "name": "claustrophobic"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy loves colder temperatures. he'll complain less than others when it's chilly, but will whine more when it's hot.",
+      "stats": [
+        "-3.0C [-5.4F] Maximum comfortable temperature",
+        "-5.0C [-9.0F] Minimum comfortable temperature"
+      ],
+      "conflicts": [
+        "heatlover"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "heatlover"
+        ],
+        "stats": [
+          "-3.0C [-5.4F] Maximum comfortable temperature",
+          "-5.0C [-9.0F] Minimum comfortable temperature"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_ColdLover",
+      "name": "coldlover"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy can sleep through anything.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_DeepSleeper",
+      "name": "deepsleeper"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is a bit of a dunce, and learns at a slower rate than others.",
+      "stats": [
+        "-4 intellectual",
+        "-25% global learning factor",
+        "-20% research speed"
+      ],
+      "conflicts": [
+        "toosmart",
+        "fastlearner",
+        "inventor",
+        "savant"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "toosmart",
+          "fastlearner",
+          "inventor",
+          "savant"
+        ],
+        "stats": [
+          "-4 intellectual",
+          "-25% global learning factor",
+          "-20% research speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Dunce",
+      "name": "dunce"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy has a passion for food preparation. his culinary creations are quite tasty, but he tends to take a while getting them \"just right.\"",
+      "stats": [
+        "+4 cooking",
+        "-0.2 cooking speed",
+        "-40.00% food poison chance"
+      ],
+      "conflicts": [
+        "inept",
+        "coordinated"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "inept",
+          "coordinated"
+        ],
+        "stats": [
+          "+4 cooking",
+          "-0.2 cooking speed",
+          "-40.00% food poison chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Gourmet",
+      "name": "gourmet"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy loves the heat. he'll complain less than others when it's hot, but will whine more when it's cold.",
+      "stats": [
+        "+5.0C [9.0F] Maximum comfortable temperature",
+        "+3.0C [5.4F] Minimum comfortable temperature"
+      ],
+      "conflicts": [
+        "coldlover"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "coldlover"
+        ],
+        "stats": [
+          "+5.0C [9.0F] Maximum comfortable temperature",
+          "+3.0C [5.4F] Minimum comfortable temperature"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_HeatLover",
+      "name": "heatlover"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": -1,
+      "description": "he means well, but Timmy is uncoordinated, and just not very good at any sort of skilled labor.",
+      "stats": [
+        "-2 artistic",
+        "-2 construction",
+        "-2 cooking",
+        "-2 crafting",
+        "-2 mining",
+        "-25% global work speed",
+        "-20% animal gather speed",
+        "-20% animal gather yield",
+        "-20% butchery efficiency",
+        "-20% butchery speed",
+        "-20% mechanoid shredding efficiency",
+        "-20% mechanoid shredding speed",
+        "-20% construction speed",
+        "-20% construct success chance",
+        "-0.2 cooking speed",
+        "-20% repair success chance",
+        "+20.00% food poison chance",
+        "-20% mining speed",
+        "-20% mining yield",
+        "-20% plant harvest yield",
+        "-20% plant work speed",
+        "-20% general labor speed"
+      ],
+      "conflicts": [
+        "industrious",
+        "hardworker",
+        "lazy",
+        "slothful",
+        "builder",
+        "butcher",
+        "claustrophobic",
+        "gourmet",
+        "inventor",
+        "perfectionist",
+        "rockhound",
+        "savant"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "industrious",
+          "hardworker",
+          "lazy",
+          "slothful",
+          "builder",
+          "butcher",
+          "claustrophobic",
+          "gourmet",
+          "inventor",
+          "perfectionist",
+          "rockhound",
+          "savant"
+        ],
+        "stats": [
+          "-2 artistic",
+          "-2 construction",
+          "-2 cooking",
+          "-2 crafting",
+          "-2 mining",
+          "-25% global work speed",
+          "-20% animal gather speed",
+          "-20% animal gather yield",
+          "-20% butchery efficiency",
+          "-20% butchery speed",
+          "-20% mechanoid shredding efficiency",
+          "-20% mechanoid shredding speed",
+          "-20% construction speed",
+          "-20% construct success chance",
+          "-0.2 cooking speed",
+          "-20% repair success chance",
+          "+20.00% food poison chance",
+          "-20% mining speed",
+          "-20% mining yield",
+          "-20% plant harvest yield",
+          "-20% plant work speed",
+          "-20% general labor speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Aptitude",
+      "name": "inept"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 1,
+      "description": "Timmy is unusually coordinated, and good at most any sort of skilled labor.",
+      "stats": [
+        "+2 artistic",
+        "+2 construction",
+        "+2 cooking",
+        "+2 crafting",
+        "+2 mining",
+        "+20% global work speed",
+        "+10% animal gather speed",
+        "+10% animal gather yield",
+        "+10% butchery efficiency",
+        "+10% butchery speed",
+        "+10% mechanoid shredding efficiency",
+        "+10% mechanoid shredding speed",
+        "+10% construction speed",
+        "+10% construct success chance",
+        "+0.1 cooking speed",
+        "+10% repair success chance",
+        "-10.00% food poison chance",
+        "+10% mining speed",
+        "+10% mining yield",
+        "+10% plant harvest yield",
+        "+10% plant work speed",
+        "+10% general labor speed"
+      ],
+      "conflicts": [
+        "industrious",
+        "hardworker",
+        "lazy",
+        "slothful",
+        "builder",
+        "butcher",
+        "claustrophobic",
+        "gourmet",
+        "inventor",
+        "perfectionist",
+        "rockhound",
+        "savant"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "industrious",
+          "hardworker",
+          "lazy",
+          "slothful",
+          "builder",
+          "butcher",
+          "claustrophobic",
+          "gourmet",
+          "inventor",
+          "perfectionist",
+          "rockhound",
+          "savant"
+        ],
+        "stats": [
+          "+2 artistic",
+          "+2 construction",
+          "+2 cooking",
+          "+2 crafting",
+          "+2 mining",
+          "+20% global work speed",
+          "+10% animal gather speed",
+          "+10% animal gather yield",
+          "+10% butchery efficiency",
+          "+10% butchery speed",
+          "+10% mechanoid shredding efficiency",
+          "+10% mechanoid shredding speed",
+          "+10% construction speed",
+          "+10% construct success chance",
+          "+0.1 cooking speed",
+          "+10% repair success chance",
+          "-10.00% food poison chance",
+          "+10% mining speed",
+          "+10% mining yield",
+          "+10% plant harvest yield",
+          "+10% plant work speed",
+          "+10% general labor speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Aptitude",
+      "name": "coordinated"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 2,
+      "description": "Timmy has an exceptionally high tolerance for pain. he is unlikely to be immobilized by it.",
+      "stats": [
+        "+25% pain shock threshold",
+        "-25% incoming damage multiplier"
+      ],
+      "conflicts": [
+        "tough",
+        "wimp"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "tough",
+          "wimp"
+        ],
+        "stats": [
+          "+25% pain shock threshold",
+          "-25% incoming damage multiplier"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_PainThreshold",
+      "name": "unstoppable"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 1,
+      "description": "Timmy has a high tolerance for pain.",
+      "stats": [
+        "+15% pain shock threshold",
+        "-15% incoming damage multiplier"
+      ],
+      "conflicts": [
+        "tough",
+        "wimp"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "tough",
+          "wimp"
+        ],
+        "stats": [
+          "+15% pain shock threshold",
+          "-15% incoming damage multiplier"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_PainThreshold",
+      "name": "ironman"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": -1,
+      "description": "Timmy will become immobilized by pain more quickly than most.",
+      "stats": [
+        "-15% pain shock threshold",
+        "+15% incoming damage multiplier"
+      ],
+      "conflicts": [
+        "tough",
+        "wimp"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "tough",
+          "wimp"
+        ],
+        "stats": [
+          "-15% pain shock threshold",
+          "+15% incoming damage multiplier"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_PainThreshold",
+      "name": "lowpaintolerance"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Strange new ideas just appear in Timmy's mind. Researching new technologies comes easily to him, but he always seems distracted.",
+      "stats": [
+        "+2 intellectual",
+        "+40% research speed",
+        "-20% global work speed",
+        "-0.10 move speed",
+        "+10% psychic sensitivity",
+        "+10% mental break threshold"
+      ],
+      "conflicts": [
+        "inept",
+        "coordinated",
+        "dunce"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "inept",
+          "coordinated",
+          "dunce"
+        ],
+        "stats": [
+          "+2 intellectual",
+          "+40% research speed",
+          "-20% global work speed",
+          "-0.10 move speed",
+          "+10% psychic sensitivity",
+          "+10% mental break threshold"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Inventor",
+      "name": "inventor"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": -1,
+      "description": "Timmy has a hard time seeing things clearly unless they are right in front of them.",
+      "stats": [
+        "-4.0 weapon handling",
+        "-4.0 melee hit chance",
+        "-20% global work speed"
+      ],
+      "conflicts": [
+        "carefulshooter",
+        "trigger-happy",
+        "deadshot"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "carefulshooter",
+          "trigger-happy",
+          "deadshot"
+        ],
+        "stats": [
+          "-4.0 weapon handling",
+          "-4.0 melee hit chance",
+          "-20% global work speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Eyesight",
+      "name": "cranialnervepalsy"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 1,
+      "description": "Timmy has a keen eye, and can quickly spot targets.",
+      "stats": [
+        "+2 shooting",
+        "+1.0 melee hit chance",
+        "+5.0 weapon handling"
+      ],
+      "conflicts": [
+        "carefulshooter",
+        "trigger-happy",
+        "deadshot"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "carefulshooter",
+          "trigger-happy",
+          "deadshot"
+        ],
+        "stats": [
+          "+2 shooting",
+          "+1.0 melee hit chance",
+          "+5.0 weapon handling"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Eyesight",
+      "name": "eagle-eyed"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is fastidious to a fault.",
+      "stats": [
+        "+2 cooking",
+        "-20% global work speed",
+        "-50.00% food poison chance",
+        "+20% immunity gain speed",
+        "+20% medical surgery success chance",
+        "+20% medical tend quality",
+        "-10% medical operation speed",
+        "-10% medical tend speed"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+2 cooking",
+          "-20% global work speed",
+          "-50.00% food poison chance",
+          "+20% immunity gain speed",
+          "+20% medical surgery success chance",
+          "+20% medical tend quality",
+          "-10% medical operation speed",
+          "-10% medical tend speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_NeatFreak",
+      "name": "neatfreak"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": -1,
+      "description": "Timmy picks at his food, taking extra time to finish his meals.",
+      "stats": [
+        "-25% eating speed"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "-25% eating speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_EatingSpeed",
+      "name": "nibbler"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 1,
+      "description": "Timmy devours his meals much faster than others.",
+      "stats": [
+        "+25% eating speed"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+25% eating speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_EatingSpeed",
+      "name": "glutton"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": -1,
+      "description": "Timmy is really afraid of the dark.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Nyctophobe",
+      "name": "nyctophobe"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 1,
+      "description": "Timmy doesn't fear the dark at all.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Nyctophobe",
+      "name": "nyctophile"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy refuses to accept less than his best in any endeavor, no matter how long it takes. he's less likely to fail when doing something, but he works slowly.",
+      "stats": [
+        "-20% global work speed",
+        "-10% animal gather speed",
+        "+20% animal gather yield",
+        "+20% butchery efficiency",
+        "-10% butchery speed",
+        "+20% mechanoid shredding efficiency",
+        "-10% mechanoid shredding speed",
+        "-10% construction speed",
+        "+20% construct success chance",
+        "-0.1 cooking speed",
+        "+20% repair success chance",
+        "-20.00% food poison chance",
+        "-10% medical operation speed",
+        "+20% medical surgery success chance",
+        "+20% medical tend quality",
+        "-10% medical tend speed",
+        "-10% mining speed",
+        "+20% mining yield",
+        "+20% plant harvest yield",
+        "-10% plant work speed",
+        "-10% research speed",
+        "-10% general labor speed"
+      ],
+      "conflicts": [
+        "industrious",
+        "hardworker",
+        "lazy",
+        "slothful",
+        "inept",
+        "coordinated"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "industrious",
+          "hardworker",
+          "lazy",
+          "slothful",
+          "inept",
+          "coordinated"
+        ],
+        "stats": [
+          "-20% global work speed",
+          "-10% animal gather speed",
+          "+20% animal gather yield",
+          "+20% butchery efficiency",
+          "-10% butchery speed",
+          "+20% mechanoid shredding efficiency",
+          "-10% mechanoid shredding speed",
+          "-10% construction speed",
+          "+20% construct success chance",
+          "-0.1 cooking speed",
+          "+20% repair success chance",
+          "-20.00% food poison chance",
+          "-10% medical operation speed",
+          "+20% medical surgery success chance",
+          "+20% medical tend quality",
+          "-10% medical tend speed",
+          "-10% mining speed",
+          "+20% mining yield",
+          "+20% plant harvest yield",
+          "-10% plant work speed",
+          "-10% research speed",
+          "-10% general labor speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Perfectionist",
+      "name": "perfectionist"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": -1,
+      "description": "Even when they have the best of intentions, some people just aren't cut out for medicine. Timmy is one of those people.",
+      "stats": [
+        "-2 medical",
+        "-20% medical surgery success chance",
+        "-20% medical tend quality"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "-2 medical",
+          "-20% medical surgery success chance",
+          "-20% medical tend quality"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Medic",
+      "name": "poormedic"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 1,
+      "description": "Timmy seems to have a knack for medical work. Patients in his care will likely fare well.",
+      "stats": [
+        "+2 medical",
+        "+20% medical surgery success chance",
+        "+20% medical tend quality"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+2 medical",
+          "+20% medical surgery success chance",
+          "+20% medical tend quality"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Medic",
+      "name": "skilledmedic"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 2,
+      "description": "Timmy has a natural aptitude for medical work. Between his steady, skilled hands and his inspiring bedside manner, patients in his care will have little to fear.",
+      "stats": [
+        "+4 medical",
+        "+20% medical operation speed",
+        "+40% medical surgery success chance",
+        "+20% medical tend speed",
+        "+40% medical tend quality"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+4 medical",
+          "+20% medical operation speed",
+          "+40% medical surgery success chance",
+          "+20% medical tend speed",
+          "+40% medical tend quality"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Medic",
+      "name": "mastermedic"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy enjoys working with rocks. his mining speed is increased, but his lack of interest in other areas slows him down when doing other jobs. And he hates working with plants.",
+      "stats": [
+        "+2 crafting",
+        "+4 mining",
+        "-20% global work speed",
+        "+40% mining speed",
+        "+20% mining yield",
+        "-50% plant harvest yield",
+        "-40% plant work speed",
+        "+40% smoothing speed"
+      ],
+      "conflicts": [
+        "inept",
+        "coordinated",
+        "claustrophobic"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "inept",
+          "coordinated",
+          "claustrophobic"
+        ],
+        "stats": [
+          "+2 crafting",
+          "+4 mining",
+          "-20% global work speed",
+          "+40% mining speed",
+          "+20% mining yield",
+          "-50% plant harvest yield",
+          "-40% plant work speed",
+          "+40% smoothing speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Rockhound",
+      "name": "rockhound"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is a modern-day Da Vinci, with a creative mind that can grasp new ideas almost effortlessly. But he's almost painfully slow when it comes to doing actual physical work.",
+      "stats": [
+        "+4 artistic",
+        "+4 crafting",
+        "+4 intellectual",
+        "+80% global learning factor",
+        "-60% global work speed"
+      ],
+      "conflicts": [
+        "toosmart",
+        "fastlearner",
+        "inept",
+        "coordinated",
+        "dunce"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "toosmart",
+          "fastlearner",
+          "inept",
+          "coordinated",
+          "dunce"
+        ],
+        "stats": [
+          "+4 artistic",
+          "+4 crafting",
+          "+4 intellectual",
+          "+80% global learning factor",
+          "-60% global work speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Savant",
+      "name": "savant"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy has always picked up skills pretty quickly.",
+      "stats": [
+        "+25% global learning factor"
+      ],
+      "conflicts": [
+        "toosmart"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "toosmart"
+        ],
+        "stats": [
+          "+25% global learning factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_decentlearner",
+      "name": "decentlearner"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": -1,
+      "description": "Timmy just can't seem to help but get taken advantage of while trading. he'll pay more than he should, and still think that he got a good deal. ",
+      "stats": [
+        "-2 social",
+        "-20.00% trade price improvement"
+      ],
+      "conflicts": [
+        "abrasive",
+        "annoyingvoice",
+        "creepybreathing"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "abrasive",
+          "annoyingvoice",
+          "creepybreathing"
+        ],
+        "stats": [
+          "-2 social",
+          "-20.00% trade price improvement"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Trader",
+      "name": "sucker"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 1,
+      "description": "Timmy likes to haggle, and isn't bad at it. he tends to get better prices than most people.",
+      "stats": [
+        "+2 social",
+        "+20.00% trade price improvement"
+      ],
+      "conflicts": [
+        "abrasive",
+        "annoyingvoice",
+        "creepybreathing"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "abrasive",
+          "annoyingvoice",
+          "creepybreathing"
+        ],
+        "stats": [
+          "+2 social",
+          "+20.00% trade price improvement"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Trader",
+      "name": "haggler"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 2,
+      "description": "Timmy always gets the best deals.",
+      "stats": [
+        "+4 social",
+        "+40.00% trade price improvement"
+      ],
+      "conflicts": [
+        "abrasive",
+        "annoyingvoice",
+        "creepybreathing"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "abrasive",
+          "annoyingvoice",
+          "creepybreathing"
+        ],
+        "stats": [
+          "+4 social",
+          "+40.00% trade price improvement"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Trader",
+      "name": "mastertrader"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 1,
+      "description": "Timmy takes more time to aim when shooting. he shoots less often than others, but with more accuracy.",
+      "stats": [
+        "+25% aiming time",
+        "x133% weapon handling",
+        "x125% aiming accuracy"
+      ],
+      "conflicts": [
+        "brawler",
+        "cranialnervepalsy",
+        "eagle-eyed"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "brawler",
+          "cranialnervepalsy",
+          "eagle-eyed"
+        ],
+        "stats": [
+          "+25% aiming time",
+          "x133% weapon handling",
+          "x125% aiming accuracy"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "ShootingAccuracy",
+      "name": "carefulshooter"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": -1,
+      "description": "Pew! Pew! Pew! Timmy just likes pulling the trigger. he shoots faster than others, but less accurately.",
+      "stats": [
+        "-25% aiming time",
+        "x75% weapon handling"
+      ],
+      "conflicts": [
+        "brawler",
+        "cranialnervepalsy",
+        "eagle-eyed"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "brawler",
+          "cranialnervepalsy",
+          "eagle-eyed"
+        ],
+        "stats": [
+          "-25% aiming time",
+          "x75% weapon handling"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "ShootingAccuracy",
+      "name": "trigger-happy"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 2,
+      "description": "Timmy has had proper training with ranged weapons. he shoots accurately and quickly.",
+      "stats": [
+        "+2 shooting",
+        "-50% aiming time",
+        "+4.0 weapon handling"
+      ],
+      "conflicts": [
+        "brawler",
+        "cranialnervepalsy",
+        "eagle-eyed"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "brawler",
+          "cranialnervepalsy",
+          "eagle-eyed"
+        ],
+        "stats": [
+          "+2 shooting",
+          "-50% aiming time",
+          "+4.0 weapon handling"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "ShootingAccuracy",
+      "name": "deadshot"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": -1,
+      "description": "Subtlety? Diplomacy? Timmy barely even understands the meaning of the words.",
+      "stats": [
+        "-2 social",
+        "-15.00% negotiation ability",
+        "-20.00% social impact"
+      ],
+      "conflicts": [
+        "abrasive",
+        "annoyingvoice",
+        "creepybreathing"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "abrasive",
+          "annoyingvoice",
+          "creepybreathing"
+        ],
+        "stats": [
+          "-2 social",
+          "-15.00% negotiation ability",
+          "-20.00% social impact"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Diplomat",
+      "name": "uncouth"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 1,
+      "description": "Timmy knows how to grease the wheels of diplomacy.",
+      "stats": [
+        "+2 social",
+        "+15.00% negotiation ability",
+        "+20.00% social impact"
+      ],
+      "conflicts": [
+        "abrasive",
+        "annoyingvoice",
+        "creepybreathing"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "abrasive",
+          "annoyingvoice",
+          "creepybreathing"
+        ],
+        "stats": [
+          "+2 social",
+          "+15.00% negotiation ability",
+          "+20.00% social impact"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Diplomat",
+      "name": "diplomat"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 2,
+      "description": "Timmy has such a way with words that he always manages to cool down a tense situation. he could talk for days and people would still listen.",
+      "stats": [
+        "+4 social",
+        "+30.00% negotiation ability",
+        "+40.00% social impact"
+      ],
+      "conflicts": [
+        "abrasive",
+        "annoyingvoice",
+        "creepybreathing"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "abrasive",
+          "annoyingvoice",
+          "creepybreathing"
+        ],
+        "stats": [
+          "+4 social",
+          "+30.00% negotiation ability",
+          "+40.00% social impact"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Diplomat",
+      "name": "masterdiplomat"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": -1,
+      "description": "Timmy is especially vulnerable to diseases, pathogens and toxic fallout.",
+      "stats": [
+        "-25% immunity gain speed",
+        "-50% toxic resistance"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "-25% immunity gain speed",
+          "-50% toxic resistance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Constitution",
+      "name": "weakconstitution"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 1,
+      "description": "Timmy's body is stronger than normal against diseases, pathogens and toxic fallout.",
+      "stats": [
+        "+25% immunity gain speed",
+        "+50% toxic resistance"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+25% immunity gain speed",
+          "+50% toxic resistance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_Constitution",
+      "name": "strongconstitution"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is a terrible gardener. The only thing he seems able to grow is weeds.",
+      "stats": [
+        "-2 plants",
+        "-15% plant harvest yield",
+        "-15% plant work speed"
+      ],
+      "conflicts": [
+        "greenthumb",
+        "inept",
+        "coordinated"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "greenthumb",
+          "inept",
+          "coordinated"
+        ],
+        "stats": [
+          "-2 plants",
+          "-15% plant harvest yield",
+          "-15% plant work speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_BrownThumb",
+      "name": "brownthumb"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is a great gardener. The only thing he wants is a greener world.",
+      "stats": [
+        "+2 plants",
+        "+15% plant harvest yield",
+        "+15% plant work speed"
+      ],
+      "conflicts": [
+        "inept",
+        "coordinated",
+        "brownthumb",
+        "rockhound"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "inept",
+          "coordinated",
+          "brownthumb",
+          "rockhound"
+        ],
+        "stats": [
+          "+2 plants",
+          "+15% plant harvest yield",
+          "+15% plant work speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "RCT_GreenThumb",
+      "name": "greenthumb"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy just can't keep a secret.",
+      "stats": [],
+      "conflicts": [
+        "trustworthy"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "trustworthy"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[RF] Rumor Has It.... (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Gossip",
+      "name": "gossip"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is someone you can trust with your innermost thoughts. If you ask him to keep something to himself, he will.",
+      "stats": [],
+      "conflicts": [
+        "gossip"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "gossip"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[RF] Rumor Has It.... (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Trustworthy",
+      "name": "trustworthy"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy is socially manipulative. he doesn't always talk ill of people, but if he doesn't like someone, he will try to turn the rest of the colony against them.",
+      "stats": [
+        "+5.00% trade price improvement",
+        "+20.00% negotiation ability"
+      ],
+      "conflicts": [
+        "peacemaker"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "peacemaker"
+        ],
+        "stats": [
+          "+5.00% trade price improvement",
+          "+20.00% negotiation ability"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[RF] Rumor Has It.... (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Manipulative",
+      "name": "manipulative"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy just can't stand other people fighting. he will always try to persuade others to put aside their differences..",
+      "stats": [],
+      "conflicts": [
+        "manipulative"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "manipulative"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[RF] Rumor Has It.... (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Peacemaker",
+      "name": "peacemaker"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy doesn't have a particular problem keeping other people's secrets, but can't help over sharing his own.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[RF] Rumor Has It.... (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Gushing",
+      "name": "gushing"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 1350,
+      "degree": 0,
+      "description": "Timmy has a difficult relationship with the truth. This causes him to have difficult relationships with other colonists, as well. ",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[RF] Rumor Has It.... (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "CompulsiveLiar",
+      "name": "compulsiveliar"
+    },
+    {
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
-      "degree": -1
+      "degree": 0,
+      "description": "By choice, by tragedy, or simply by the slow, agonizing passage of time, Timmy is the last of his kind. It is impossible for him to meet anyone he previously knew.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Endling (Last Of Their Kind)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Aelanna_Endling",
+      "name": "endling"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 1,
+      "description": "Timmy hates and distrusts xenos. They see them as little more than animals.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Humanoid Alien Races",
+        "karmaTypeForAdding": null
+      },
+      "defName": "HAR_Xenophobia",
+      "name": "xenophobe"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": -1,
+      "description": "Timmy thinks aliens are exotic and interesting. They would love to get to know them more and wouldn't mind forming relationships with them.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Humanoid Alien Races",
+        "karmaTypeForAdding": null
+      },
+      "defName": "HAR_Xenophobia",
+      "name": "xenophile"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has a strong heart.",
+      "stats": [
+        "+10.0% Virtue Chance"
+      ],
+      "conflicts": [
+        "weakheart"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "weakheart"
+        ],
+        "stats": [
+          "+10.0% Virtue Chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Virtue Framework",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VF_Trait_Virtue",
+      "name": "strongheart"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has a weak heart.",
+      "stats": [
+        "-10.0% Virtue Chance"
+      ],
+      "conflicts": [
+        "strongheart"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "strongheart"
+        ],
+        "stats": [
+          "-10.0% Virtue Chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Virtue Framework",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VF_Trait_Virtue_Weak",
+      "name": "weakheart"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 3,
+      "description": "Timmy knows how to handle a firearm, and can shoot both quickly and accurately.",
+      "stats": [
+        "+2 shooting",
+        "-50% aiming time",
+        "+4.0 shooting accuracy"
+      ],
+      "conflicts": [
+        "brawler",
+        "cranialnervepalsy",
+        "eagle-eyed"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "brawler",
+          "cranialnervepalsy",
+          "eagle-eyed"
+        ],
+        "stats": [
+          "+2 shooting",
+          "-50% aiming time",
+          "+4.0 shooting accuracy"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[LC] Consolidated Traits",
+        "karmaTypeForAdding": null
+      },
+      "defName": "ShootingAccuracy",
+      "name": "deadshot"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is uncommonly agile and stealthy, with better reflexes and a more flexible body than most.",
+      "stats": [
+        "+100% hunting stealth",
+        "+0.30 move speed",
+        "+10.0 melee dodge chance"
+      ],
+      "conflicts": [
+        "slowpoke",
+        "fastwalker",
+        "jogger"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "slowpoke",
+          "fastwalker",
+          "jogger"
+        ],
+        "stats": [
+          "+100% hunting stealth",
+          "+0.30 move speed",
+          "+10.0 melee dodge chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[SYR] Individuality (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "SYR_Agile",
+      "name": "stealthy"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has a special connection to animals and understands them better than most people. Animals also tend to understand what he wants from them. The time he spends with animals is long, but worth it.\n\n    Taming never causes manhunter\n    Easier taming of very wild animals",
+      "stats": [
+        "-50% animal gather speed",
+        "+20% animal gather yield"
+      ],
+      "conflicts": [
+        "silvertongue"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "silvertongue"
+        ],
+        "stats": [
+          "-50% animal gather speed",
+          "+20% animal gather yield"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[SYR] Individuality (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "SYR_AnimalAffinity",
+      "name": "animalfriend"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is proficient with various construction materials, particularly stone. he will construct anything out of stone three times as fast as others and smooth out your rocky base in no time.\n\n    Stone construction speed +200%",
+      "stats": [
+        "+200% smoothing speed",
+        "+10% construct success chance"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+200% smoothing speed",
+          "+10% construct success chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[SYR] Individuality (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "SYR_Architect",
+      "name": "architect"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has a unique approach to science. he always thinks outside the box and finds inspiration for intellectual problems in art.\n\n    Artistic increases research speed",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[SYR] Individuality (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "SYR_CreativeThinker",
+      "name": "creativethinker"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy seems to have rented all the good fortune on this Rimworld.",
+      "stats": [
+        "+10% mining yield",
+        "+20% animal gather yield",
+        "+10% plant harvest yield"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+10% mining yield",
+          "+20% animal gather yield",
+          "+10% plant harvest yield"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[SYR] Individuality (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "SYR_GoodFortune",
+      "name": "fortunate"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has a special talent to grow plants and nurture them even in hostile enviroments. he can grow any plant, even if other people would fail due to their lack of skills. he would like some plants in his bedroom.\n\n    Can grow any plant regardless of skill",
+      "stats": [
+        "+80% plant work speed",
+        "+10% plant harvest yield"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+80% plant work speed",
+          "+10% plant harvest yield"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[SYR] Individuality (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "SYR_GreenThumb",
+      "name": "greenthumb"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is a gun nut, his life revolves around guns, how they are crafted, maintained and used. Quite a handy skill in these circumstances. Just don't hand him a melee weapon.",
+      "stats": [
+        "+2 shooting",
+        "+2 crafting",
+        "-10% aiming time"
+      ],
+      "conflicts": [
+        "brawler"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "brawler"
+        ],
+        "stats": [
+          "+2 shooting",
+          "+2 crafting",
+          "-10% aiming time"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[SYR] Individuality (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "SYR_GunNut",
+      "name": "gunnut"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is exceptionally coordinated with his hands.",
+      "stats": [
+        "+15% global work speed",
+        "-10% aiming time",
+        "+5.0 melee hit chance"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+15% global work speed",
+          "-10% aiming time",
+          "+5.0 melee hit chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[SYR] Individuality (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "SYR_HandEyeCoordination",
+      "name": "hand-eyecoordination"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has a keen eye and can spot even tiny mineral deposits. he will occassionally find small clumps of resources when mining any sort of stone or ore. Chance increased for flatter terrain.",
+      "stats": [
+        "+40% mining speed"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+40% mining speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[SYR] Individuality (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "SYR_KeenEye",
+      "name": "keeneye"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has had their fair share of encounters with mechanoids. he has become an expert in mechanoid construction and combat, making him uniquely suited to disassemble and fight them.\n\n    Damage versus mechanoids +50%",
+      "stats": [
+        "+50% mechanoid shredding efficiency"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+50% mechanoid shredding efficiency"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[SYR] Individuality (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "SYR_MechanoidExpert",
+      "name": "mechanoidexpert"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy wants thing to be exactly right. This does take time, but the results speak for themselves.\n\n    Quality level +1 (50% chance)",
+      "stats": [
+        "-25% global work speed"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "-25% global work speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[SYR] Individuality (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "SYR_Perfectionist",
+      "name": "perfectionist"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy knows exactly the right words for every situation. This also means his insults hurt more.",
+      "stats": [
+        "+33.00% trade price improvement",
+        "+20.00% negotiation ability",
+        "+50.00% social impact"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+33.00% trade price improvement",
+          "+20.00% negotiation ability",
+          "+50.00% social impact"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[SYR] Individuality (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "SYR_Haggler",
+      "name": "silvertongue"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has particularly steady hands, which don't even tremble in dire circumstances or when he himself is injured.\n\n    No self-tend penalty",
+      "stats": [
+        "+50% medical tend speed",
+        "+10% medical tend quality",
+        "+3.0 shooting accuracy"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+50% medical tend speed",
+          "+10% medical tend quality",
+          "+3.0 shooting accuracy"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[SYR] Individuality (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "SYR_SteadyHands",
+      "name": "steadyhands"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has a very strong back or is part mule or something. he can carry significantly more as a normal person.",
+      "stats": [
+        "+75 carrying capacity"
+      ],
+      "conflicts": [
+        "wimp"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "wimp"
+        ],
+        "stats": [
+          "+75 carrying capacity"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "[SYR] Individuality (Continued)",
+        "karmaTypeForAdding": null
+      },
+      "defName": "SYR_StrongBack",
+      "name": "strongback"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has resonate with nature.",
+      "stats": [
+        "Natural meditation focus type allowed."
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "Natural meditation focus type allowed."
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Unknown",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VF_Trait_Virtue_Nature",
+      "name": "naturalresonance"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 2,
+      "description": "Timmy is obsessed with germs and will wash much more frequently than normal.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Dubs Bad Hygiene",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Hygienic",
+      "name": "germaphobe"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 1,
+      "description": "Timmy is very hygienic and will wash more frequently.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Dubs Bad Hygiene",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Hygienic",
+      "name": "hygienic"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": -1,
+      "description": "Timmy is very unhygienic and will wash less frequently.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Dubs Bad Hygiene",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Hygienic",
+      "name": "unhygienic"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": -2,
+      "description": "Timmy has very low standards of cleanliness and will only wash when they absolutely have to.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Dubs Bad Hygiene",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Hygienic",
+      "name": "slob"
     }
   ],
   "races": [
     {
       "data": {
+        "customName": false,
         "stats": [
           "+60.00 Mass",
           "+70% Flammability",
           "+$1750 Market value",
           "+4.60 Move speed",
-          "+28.8F Minimum comfortable temperature",
-          "+46.8F Maximum comfortable temperature",
-          "+50 Leather amount",
+          "+16.0C [28.8F] Min comfortable temperature",
+          "+26.0C [46.8F] Max comfortable temperature",
+          "+75 Leather amount",
           "+3 Honor value"
         ],
-        "mod": "RimWorld",
-        "karmaType": null,
-        "customName": false
+        "mod": "Unknown",
+        "karmaType": null
       },
       "description": "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.",
       "defName": "Human",
-      "enabled": true,
+      "enabled": false,
       "name": "human",
       "price": 2917
     }
