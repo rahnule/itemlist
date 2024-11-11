@@ -12,6 +12,18 @@
     "version": "2.3.1.0"
   },
   {
+    "author": "bradson",
+    "name": "Fishery - Modding Library",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "bradson",
+    "name": "Performance Fish",
+    "steamId": "",
+    "version": "0.6.2.0+79e8b5f70d53ac37ef43c08273e37bb8b34b041c"
+  },
+  {
     "author": "UnlimitedHugs",
     "name": "HugsLib",
     "steamId": "818773962",
@@ -52,6 +64,12 @@
     "name": "AFU男士发型_Men's hairstyles",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "Andreas Pardeike",
+    "name": "Achtung!",
+    "steamId": "730936602",
+    "version": "3.9.5.0"
   },
   {
     "author": "Billnotic",
@@ -116,6 +134,18 @@
   {
     "author": "Neceros",
     "name": "Bad Can Be Good (Continued)",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "HaiLuan",
+    "name": "Custom Quest Framework",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "HaiLuan",
+    "name": "Base Expanded - Pirate",
     "steamId": null,
     "version": null
   },
@@ -216,6 +246,48 @@
     "version": null
   },
   {
+    "author": "Oskar Potocki, XeoNovaDan, Orion, Kikohi, Taranchuk, Sarg Bjornson and Erdelf",
+    "name": "Vanilla Expanded Framework",
+    "steamId": "2023507013",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Oskar Potocki, xrushha, SmashPhil and legodude17",
+    "name": "Vanilla Apparel Expanded — Accessories",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Oskar Potocki, Helixien, Erin, Luizi, ISOREX, erdelf and Sarg",
+    "name": "Vanilla Textures Expanded",
+    "steamId": "2016436324",
+    "version": "1.0.0"
+  },
+  {
+    "author": "CE Team",
+    "name": "Combat Extended",
+    "steamId": "2890901044",
+    "version": "1.4.5.8"
+  },
+  {
+    "author": "CE Team",
+    "name": "Combat Extended Armors",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "CE Team",
+    "name": "Combat Extended Guns",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "CE Team",
+    "name": "Combat Extended Melee",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "TheWireLord",
     "name": "Conduit Deconstruct",
     "steamId": null,
@@ -237,7 +309,7 @@
     "author": "Mlie",
     "name": "Custom Prisoner Interactions",
     "steamId": "2841231775",
-    "version": "1.5.7"
+    "version": "1.5.8"
   },
   {
     "author": "Chris",
@@ -284,42 +356,6 @@
   {
     "author": "pelador",
     "name": "Drug Policy Fix (Continued)",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki, XeoNovaDan, Orion, Kikohi, Taranchuk, Sarg Bjornson and Erdelf",
-    "name": "Vanilla Expanded Framework",
-    "steamId": "2023507013",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Smash Phil",
-    "name": "Vehicle Framework",
-    "steamId": "3014915404",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Oskar Potocki, xrushha, Smash Phil, Taranchuk, Reann Shepard and Sarg",
-    "name": "Vanilla Vehicles Expanded",
-    "steamId": "3014906877",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Oskar Potocki, xrushha, Smash Phil, Taranchuk and Reann Shepard",
-    "name": "Vanilla Vehicles Expanded - Tier 3",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Kentington, Thain and SonicTHI",
-    "name": "Save Our Ship 2",
-    "steamId": "1909914131",
-    "version": "0.0.0.0"
-  },
-  {
-    "author": "SP4RTAN",
-    "name": "Dubs Bad Hygiene SOS2 Patch",
     "steamId": null,
     "version": null
   },
@@ -450,12 +486,6 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "Oskar Potocki, Helixien, Erin, Luizi, ISOREX, erdelf and Sarg",
-    "name": "Vanilla Textures Expanded",
-    "steamId": "2016436324",
-    "version": "1.0.0"
-  },
-  {
     "author": "Erin",
     "name": "Erin's Body Retexture",
     "steamId": null,
@@ -568,6 +598,12 @@
     "name": "Impressionable Children",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "Smash Phil",
+    "name": "Vehicle Framework",
+    "steamId": "3014915404",
+    "version": "1.0.0.0"
   },
   {
     "author": "Haecriver",
@@ -696,6 +732,12 @@
     "version": "1.12.17+6db7d75d6e1005522b3ed749fab1d56e12fc2a46"
   },
   {
+    "author": "N7Huntsman",
+    "name": "Mechanoid Nerf for Combat Extended",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Owlchemist",
     "name": "Mid-saver Saver",
     "steamId": "3261311100",
@@ -768,6 +810,12 @@
     "version": null
   },
   {
+    "author": "Nuff",
+    "name": "Nuff's Auto-Patcher for Combat Extended",
+    "steamId": "2972167798",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "Mehni",
     "name": "Numbers",
     "steamId": "1414302321",
@@ -778,6 +826,18 @@
     "name": "OgreStack",
     "steamId": "1447140290",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "Spino and Sarg",
+    "name": "Megafauna",
+    "steamId": "1055485938",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Spincrus",
+    "name": "Dinosauria",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "SeoHyeon",
@@ -963,7 +1023,7 @@
     "author": "Malte Schulze",
     "name": "RIMMSqol",
     "steamId": "1084452457",
-    "version": "1.0.9056.28412"
+    "version": "1.0.9078.28846"
   },
   {
     "author": "Soul",
@@ -986,12 +1046,6 @@
   {
     "author": "NanoCE",
     "name": "Glass+Lights",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Oskar Potocki, ISOREX, xrushha, Buns Buns Cat and Sam_Bucher",
-    "name": "Vanilla Textures Expanded - Save Our Ship 2",
     "steamId": null,
     "version": null
   },
@@ -1092,6 +1146,12 @@
     "version": null
   },
   {
+    "author": "TheLastBulletBender",
+    "name": "Rimworld Exploration Mode",
+    "steamId": "2941608795",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "trocapalot",
     "name": "Rimworld: Soundscape Enhanced",
     "steamId": null,
@@ -1138,12 +1198,6 @@
     "name": "Scattered Stones",
     "steamId": "3278176206",
     "version": "1.4"
-  },
-  {
-    "author": "Oskar Potocki, xrushha, SmashPhil and legodude17",
-    "name": "Vanilla Apparel Expanded — Accessories",
-    "steamId": null,
-    "version": null
   },
   {
     "author": "Shavius",
@@ -1200,10 +1254,10 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "TheCafFiend",
-    "name": "Spinal Engines for SOS2",
-    "steamId": null,
-    "version": null
+    "author": "DarkShadow44",
+    "name": "SurgeryImproved",
+    "steamId": "3233032071",
+    "version": "1.0.0.0"
   },
   {
     "author": "cyanobot",
@@ -1220,12 +1274,6 @@
   {
     "author": "Shenanigans",
     "name": "Tech Tattoos",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Group member",
-    "name": "The Sea of Stars",
     "steamId": null,
     "version": null
   },
@@ -1374,6 +1422,18 @@
     "version": null
   },
   {
+    "author": "Oskar Potocki, xrushha, Smash Phil, Taranchuk, Reann Shepard and Sarg",
+    "name": "Vanilla Vehicles Expanded",
+    "steamId": "3014906877",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Oskar Potocki, xrushha, Smash Phil, Taranchuk and Reann Shepard",
+    "name": "Vanilla Vehicles Expanded - Tier 3",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Farxmai2",
     "name": "VVE - Deconstructable Vehicles Junk",
     "steamId": null,
@@ -1470,6 +1530,12 @@
     "version": null
   },
   {
+    "author": "Epicguru (James B)",
+    "name": "What's That Mod",
+    "steamId": "2258431182",
+    "version": "1.0.0+4ee7aafb566237826b23c6e55b2c46e43e5343c2"
+  },
+  {
     "author": "RedMattis",
     "name": "Wololoo - Better Conversion and Recruitment",
     "steamId": "3108763487",
@@ -1480,6 +1546,12 @@
     "name": "World Map Beautification Project (Continued)",
     "steamId": "3266720501",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "Various",
+    "name": "Realistic Planets Continued",
+    "steamId": "3225521979",
+    "version": "1.0.8904.5342"
   },
   {
     "author": "Odeum",
@@ -1546,6 +1618,12 @@
     "name": "[Kit] Graze up",
     "steamId": "2302739121",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "Mlie",
+    "name": "[RF] Rumor Has It.... (Continued)",
+    "steamId": "2013940581",
+    "version": "1.5.3"
   },
   {
     "author": "Chicken Plucker and Taranchuk",
